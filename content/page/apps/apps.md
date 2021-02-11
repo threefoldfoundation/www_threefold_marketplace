@@ -1,5 +1,5 @@
 ---
-id: page2
+id: apps
 header: header
 solution_image: ./page2_image.png
 howItWorksMain: how_it_works
