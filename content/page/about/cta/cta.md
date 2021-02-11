@@ -1,8 +1,8 @@
 ---
 id: home_cta
-title: Can't find the perfect app?
-button: Contact Us
+title: Made Possible by the ThreeFold Grid.
+button: ''
 link: '' #Add button link here
 ---
 
-Looking for something you truly love but having a hard time finding it? Let us know about that special one and our team will help you getting it to the grid!
+The ThreeFold Grid is a an globally-distributed network of storage and compute capacity which brings a smart, secure and efficent solution that allows anyone to connect capacity and participate in the internet economy. It is what allows your data and workloads to live freely, privately and securely.

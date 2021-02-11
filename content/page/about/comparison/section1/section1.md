@@ -1,7 +1,7 @@
 ---
 id: section1
-svg: ./section1.png
-title: Title
+svg: ''
+title: PRIVATE
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Benefit from 100% data ownership. Define and revoke access rights. No one else can access your information, not even ThreeFold.

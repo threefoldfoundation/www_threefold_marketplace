@@ -1,14 +1,14 @@
 ---
 id: about
-header_title: BIG TITLE
-header_image: ./page1_image.png
-header_excerpt: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-button: Button
+header_title: The Power of P2P
+header_image: ./about_header.png
+header_excerpt: Today, online privacy and security are badly compormised. Peer-to-Peer models empower communities with equality, sovereignity and resiliency.
+button: ''
 link: '' #link for button
 comparisonMain: comparison
 comparisonSecs: [section1, section2, section3]
 productsMain: product
-productData: [product1, product2, product3]
+productData: [product1, product2, product3, product4]
 cta: home_cta
-solution_image: ./page1_image.png
+solution_image: ./about_map.png
 ---

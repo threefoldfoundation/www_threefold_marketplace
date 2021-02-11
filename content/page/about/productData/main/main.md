@@ -1,5 +1,5 @@
 ---
 id: product
-title: product
-subtitle: Subtitle
+title: ''
+subtitle: Give the Gift of Empowerment
 ---

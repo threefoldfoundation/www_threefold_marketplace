@@ -1,7 +1,7 @@
 ---
 id: section2
-svg: ./section2.png
-title: Title
+svg: ''
+title: SECURE
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Run and sotre your applications and workloads independently, without any intermediatires, on an ultra-secure network.

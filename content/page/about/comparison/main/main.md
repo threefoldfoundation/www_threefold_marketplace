@@ -1,7 +1,7 @@
 ---
 id: comparison
-title: Title
-description: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-button: Button
+title: ''
+description: ''
+button: Know more about P2P
 link: '' #add button link here
 ---
