@@ -1,5 +1,5 @@
 ---
 id: product4
 title: ''
-image : ./empower.png
+image: ./empower.png
 ---

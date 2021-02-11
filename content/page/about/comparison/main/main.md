@@ -1,5 +1,5 @@
 ---
-id: comparison
+id: about_comparison
 title: ''
 description: ''
 button: Know more about P2P

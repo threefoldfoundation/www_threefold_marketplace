@@ -7,7 +7,7 @@ header_excerpt: Peer-to-Peer tools and applications which allow you to scale you
 button: Know More
 link: /about
 comparisonMain: home_comparison
-comparisonSecs: [section1, section2, section3]
+comparisonSecs: [app_1, app_2, app_3]
 cards: [card1] #you can continue adding cards as needed
 cta: home_cta
 ---
