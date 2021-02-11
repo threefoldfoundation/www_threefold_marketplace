@@ -13,27 +13,21 @@
         :excerpt="$page.markdownPage.header_excerpt"
       />
 
-      <VerticalNav
+      <!-- <VerticalNav
         :slides="$page.markdownPage.slides"
         v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
-      />
+      /> -->
 
       <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
       />
-      
-      <g-image 
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
-      />
-      
 
-      <NewCard
+      <!-- <NewCard
         v-for="card in $page.markdownPage.cards"
         :key="card.id"
         :card="card"
-      />
+      /> -->
 
       <HowItWorks
         v-if="$page.markdownPage.howItWorks.length > 0"
@@ -65,10 +59,10 @@
         "
       />
 
-      <Roadmap
+      <!-- <Roadmap
         v-if="$page.markdownPage.roadmap.length > 0"
         :roadmap="$page.markdownPage.roadmap"
-      />
+      /> -->
 
       <FourTiersWithToggle
         v-if="$page.markdownPage.pricingPlans.length > 0"
@@ -81,10 +75,10 @@
         :plans="$page.markdownPage.plans"
       />
 
-      <logoShowcase
+      <!-- <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :logos="$page.markdownPage.logos"
-      />
+      /> -->
 
       <BrandPanel
         :brand="$page.markdownPage.brandPanel"
@@ -95,11 +89,16 @@
         v-if="$page.markdownPage.cta"
         :cta="$page.markdownPage.cta"
       />
+      
+      <g-image 
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
 
-      <SignUp
+      <!-- <SignUp
         v-if="$page.markdownPage.signup"
         :signup="$page.markdownPage.signup"
-      />
+      /> -->
 
       <GetInTouch
         :contacts="$page.markdownPage.contactData"
