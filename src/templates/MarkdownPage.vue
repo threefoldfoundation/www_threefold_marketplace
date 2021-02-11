@@ -29,17 +29,17 @@
         :card="card"
       /> -->
 
-      <HowItWorks
+      <!-- <HowItWorks
         v-if="$page.markdownPage.howItWorks.length > 0"
         :HIWData="$page.markdownPage.howItWorks"
         :main="$page.markdownPage.howItWorksMain"
-      />
+      /> -->
 
-      <Features
+      <!-- <Features
         v-if="$page.markdownPage.features.length > 0"
         :main="$page.markdownPage.featuresMain"
         :features="$page.markdownPage.features"
-      />
+      /> -->
 
       <Comparison
         v-if="
@@ -64,16 +64,16 @@
         :roadmap="$page.markdownPage.roadmap"
       /> -->
 
-      <FourTiersWithToggle
+      <!-- <FourTiersWithToggle
         v-if="$page.markdownPage.pricingPlans.length > 0"
         :main="$page.markdownPage.pricing_plansMain"
         :pricingPlans="$page.markdownPage.pricingPlans"
-      />
+      /> -->
 
-      <WithComparisonTable
+      <!-- <WithComparisonTable
         v-if="$page.markdownPage.plans.length > 0"
         :plans="$page.markdownPage.plans"
-      />
+      /> -->
 
       <!-- <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
@@ -100,10 +100,10 @@
         :signup="$page.markdownPage.signup"
       /> -->
 
-      <GetInTouch
+      <!-- <GetInTouch
         :contacts="$page.markdownPage.contactData"
         v-if="$page.markdownPage.contactData.length > 0"
-      />
+      /> -->
     </div>
   </Layout>
 </template>
