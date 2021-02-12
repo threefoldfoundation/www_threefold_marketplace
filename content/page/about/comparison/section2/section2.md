@@ -1,6 +1,6 @@
 ---
-id: comp_2
-svg: 
+id: section2
+svg: ''
 title: SECURE
 ---
 

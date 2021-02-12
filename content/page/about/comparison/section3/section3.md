@@ -1,6 +1,6 @@
 ---
-id: comp_3
-svg: 
+id: section3
+svg: ''
 title: SUSTAINABLE
 ---
 

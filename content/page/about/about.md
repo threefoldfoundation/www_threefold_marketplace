@@ -6,7 +6,7 @@ header_excerpt: Today, online privacy and security are badly compormised. Peer-t
 button: ''
 link: '' #link for button
 comparisonMain: about_comparison
-comparisonSecs: [comp_1, comp_2, comp_3]
+comparisonSecs: [section1, section2, section3]
 productsMain: product
 productData: [product1, product2, product3, product4]
 cta: about_cta
