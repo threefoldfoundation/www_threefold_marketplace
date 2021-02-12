@@ -164,7 +164,7 @@
             @click.native="clicked"
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
             >{{ element.name }}</g-link
-          >
+          > 
         </div>
         <!-- <div
           class="md:hidden inline-flex rounded-full border-2 border-gray-200 w-1/2"
