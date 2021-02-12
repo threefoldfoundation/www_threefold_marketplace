@@ -1,5 +1,5 @@
 ---
 id: app_3
-svg: ./app3.png
+svg: ./cryptpad.png
 title: ''
 ---

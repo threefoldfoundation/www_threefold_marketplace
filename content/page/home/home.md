@@ -8,6 +8,6 @@ button: Know More
 link: /about
 comparisonMain: home_comparison
 comparisonSecs: [app_1, app_2, app_3]
-cards: [card1] #you can continue adding cards as needed
+cards: [home_card] #you can continue adding cards as needed
 cta: home_cta
 ---

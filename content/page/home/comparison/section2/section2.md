@@ -1,5 +1,5 @@
 ---
 id: app_2
-svg: /app2.png
+svg: ./peertube.png
 title: ''
 ---

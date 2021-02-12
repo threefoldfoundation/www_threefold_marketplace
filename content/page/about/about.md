@@ -9,6 +9,6 @@ comparisonMain: about_comparison
 comparisonSecs: [comp_1, comp_2, comp_3]
 productsMain: product
 productData: [product1, product2, product3, product4]
-cta: home_cta
+cta: about_cta
 solution_image: ./about_map.png
 ---
