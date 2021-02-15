@@ -19,7 +19,7 @@
             />
 
             <img
-              src="@/assets/images/TFN_white.svg"
+              src="../../../static/img/TFN_white.svg"
               class="mr-3 fill-current"
               width="180"
               v-else
