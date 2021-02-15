@@ -77,7 +77,7 @@
         }
         comparisonSecs{
           id
-          svg
+          image
           title
           content
         }

@@ -4,7 +4,7 @@
       {{ main.title }}
     </h2>
     <p class="text-gray-600">{{ main.description }}</p>
-    <div class="flex flex-wrap items-center -mx-8 mt-12 mb-2">
+    <div class="flex flex-wrap items-center mx-8 mt-12 mb-2">
       <div
         class="lg:w-1/3 px-6 mb-2"
         v-for="(section, index) in sections"
@@ -12,7 +12,7 @@
       >
         <g-image
           class="mx-auto mb-8"
-          :src="section.svg.src"
+          :src="section.image"
           :alt="section.title"
         />
         <h3 class="text-2xl mb-4 font-semibold font-heading">
