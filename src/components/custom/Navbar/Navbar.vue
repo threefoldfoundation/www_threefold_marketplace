@@ -11,20 +11,12 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <img
-              src="/img/marketplace_logo.svg"
+              src="@/assets/images/marketplace_logo.svg"
               class="mr-3 fill-current"
               width="180"
-              v-if="theme == 'light'"
               alt=""
             />
 
-            <img
-              src="/img/marketplace_logo.svg"
-              class="mr-3 fill-current"
-              width="180"
-              v-else
-              alt=""
-            />
             <!-- <span
               class="hidden md:block font-semibold text-xl tracking-tight"
               >{{ $static.metadata.siteName }}</span
@@ -164,7 +156,7 @@
             @click.native="clicked"
             class="inline-flex sm:flex uppercase p-2 mr-4 animated-link"
             >{{ element.name }}</g-link
-          > 
+          >
         </div>
         <!-- <div
           class="md:hidden inline-flex rounded-full border-2 border-gray-200 w-1/2"
