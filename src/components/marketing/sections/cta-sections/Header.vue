@@ -10,14 +10,14 @@
           <a
             v-if="link.includes('http')"
             target="_blank"
-            class="inline-block bg-blue-900 text-md learn-button hover:bg-blue-800 text-gray-100 px-8 py-2 mr-5 my-2 rounded shadow rounded-full"
+            class="inline-block py-4 px-8 mr-6 leading-none text-white bg-gray-900 hover:bg-gray-700 font-semibold rounded shadow"
             :href="link"
             >{{ button }}</a
           >
 
           <a
             v-else
-            class="inline-block bg-blue-900 text-md learn-button hover:bg-blue-800 text-gray-100 px-8 py-2 mr-5 my-2 rounded shadow rounded-full"
+            class="inline-block py-4 px-8 mr-6 leading-none text-white bg-gray-900 hover:bg-gray-700 font-semibold rounded shadow"
             :href="link"
             >{{ button }}</a
           >

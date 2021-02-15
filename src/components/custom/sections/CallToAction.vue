@@ -10,7 +10,7 @@
       ></div>
       <g-link
         v-if="cta.button"
-        class="inline-block bg-blue-900 text-md learn-button hover:bg-blue-800 text-gray-100 px-8 py-2 mr-5 my-2 rounded shadow rounded-full"
+        class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow"
         :to="cta.link"
         >{{ cta.button }}</g-link
       >
