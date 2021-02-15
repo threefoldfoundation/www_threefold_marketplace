@@ -53,7 +53,7 @@
             <g-link
               type="button"
               :to="plan.link"
-              class="mt-8 w-full text-center bg-gray-800 border border-gray-800 rounded-md py-2 text-sm leading-5 font-semibold text-white hover:bg-gray-700 focus:outline-none focus:shadow-outline-gray transition duration-150 ease-in-out"
+              class="mt-8 w-full text-center bg-blue-900 border border-gray-800 rounded shadow rounded-full py-2 text-sm leading-5 text-white hover:bg-blue-800 focus:outline-none focus:shadow-outline-gray transition duration-150 ease-in-out"
             >
               {{ plan.button }}
             </g-link>
