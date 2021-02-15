@@ -11,7 +11,7 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <img
-              src="../../../static/img/TFN_black.svg"
+              src="@/assets/images/TFN_black.svg"
               class="mr-3 fill-current"
               width="180"
               v-if="theme == 'light'"
@@ -19,7 +19,7 @@
             />
 
             <img
-              src="../../../static/img/TFN_white.svg"
+              src="@/assets/images/TFN_white.svg"
               class="mr-3 fill-current"
               width="180"
               v-else

@@ -9,19 +9,21 @@
         <div class="space-y-8 xl:col-span-1">
           <!-- <g-image
             class="h-10"
-            src="/img/tf_icon_black.svg"
+            src="@assets/images/tf_icon_black.svg"
             alt="Company name"
             v-if="theme == 'light'"
           />
 
           <g-image
             class="h-10"
-            src="/img/tf_icon_white.svg"
+            src="@assets/images/tf_icon_white.svg"
             alt="Company name"
             v-else
           /> -->
 
-          <p class="text-gray-500 text-base leading-6">
+          <p
+            class="text-gray-500 text-base leading-6"
+          >
             {{ record.description }}
           </p>
           <div class="flex space-x-6">
@@ -177,5 +179,5 @@ export default {
 <style scoped>
 ul {
   list-style-type: none;
-};
+}
 </style>
