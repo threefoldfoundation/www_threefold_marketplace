@@ -1,5 +1,6 @@
 ---
 id: wiki_publish
+tag: decentralized_community
 ---
 
 # Wiki Publisher

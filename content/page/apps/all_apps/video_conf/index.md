@@ -1,5 +1,6 @@
 ---
 id: video_conf
+tag: decentralized_community
 ---
 
 # Video Chat

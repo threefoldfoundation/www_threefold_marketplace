@@ -1,5 +1,6 @@
 ---
 id: video_share
+tag: decentralized_community
 ---
 
 # Video Sharing

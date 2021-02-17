@@ -1,5 +1,6 @@
 ---
 id: discourse
+tag: decentralized_office
 ---
 
 # Community Forum

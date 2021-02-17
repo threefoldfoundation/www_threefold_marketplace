@@ -1,5 +1,6 @@
 ---
 id: waykichain
+tag: blockchain_solutions
 ---
 
 # WaykiChain

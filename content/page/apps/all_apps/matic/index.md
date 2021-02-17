@@ -1,5 +1,6 @@
 ---
 id: matic
+tag: blockchain_solutions
 ---
 
 # Matic Network

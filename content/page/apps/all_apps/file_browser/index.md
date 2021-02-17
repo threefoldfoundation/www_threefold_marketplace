@@ -1,5 +1,6 @@
 ---
 id: file_browser
+tag: decentralized_office
 ---
 
 # File Browser

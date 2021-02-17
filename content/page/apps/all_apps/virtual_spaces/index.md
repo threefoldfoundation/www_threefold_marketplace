@@ -1,5 +1,6 @@
 ---
 id: virtual_spaces
+tag: decentralized_community
 ---
 
 # Virtual Spaces

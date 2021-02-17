@@ -1,5 +1,6 @@
 ---
 id: elrond
+tag: blockchain_solutions
 ---
 
 # Elrond

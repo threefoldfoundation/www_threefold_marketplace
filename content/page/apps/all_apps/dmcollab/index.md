@@ -1,5 +1,6 @@
 ---
 id: collab
+tag: decentralized_office
 ---
 
 # Collaborative Docs

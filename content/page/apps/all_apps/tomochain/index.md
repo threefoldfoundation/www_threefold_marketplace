@@ -1,5 +1,6 @@
 ---
 id: tomochain
+tag: blockchain_solutions
 ---
 
 # TomoChain

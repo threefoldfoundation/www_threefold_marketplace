@@ -1,5 +1,6 @@
 ---
 id: tf_grid
+tag: decentralized_cloud
 ---
 
 # The ThreeFold Grid

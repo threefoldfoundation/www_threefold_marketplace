@@ -1,5 +1,6 @@
 ---
 id: gitea
+tag: decentralized_developer
 ---
 
 # Git Service

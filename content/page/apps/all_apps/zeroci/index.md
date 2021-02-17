@@ -1,5 +1,6 @@
 ---
 id: zeroci
+tag: decentralized_developer
 ---
 
 # Continuous Integration Tool

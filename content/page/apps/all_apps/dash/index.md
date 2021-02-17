@@ -1,5 +1,6 @@
 ---
 id: dash
+tag: blockchain_solutions
 ---
 
 # Dash

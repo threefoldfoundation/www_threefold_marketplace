@@ -1,5 +1,6 @@
 ---
 id: digibyte
+tag: blockchain_solutions
 ---
 
 # DigiByte

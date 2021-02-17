@@ -1,5 +1,6 @@
 ---
-id: gridsome 
+id: gridsome
+tag: decentralized_community
 ---
 
 # Modern Site Generator

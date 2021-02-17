@@ -1,5 +1,6 @@
 ---
 id: wiki
+tag: decentralized_community
 ---
 
 # Knowledge Base

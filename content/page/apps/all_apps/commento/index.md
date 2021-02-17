@@ -1,5 +1,6 @@
 ---
 id: commento
+tag: decentralized_community
 ---
 
 # Comments Widget

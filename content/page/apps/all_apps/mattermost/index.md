@@ -1,5 +1,6 @@
 ---
 id: mattermost
+tag: decentralized_office
 ---
 
 # Team Collaboration

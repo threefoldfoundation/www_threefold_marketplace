@@ -1,5 +1,6 @@
 ---
 id: circles
+tag: decentralized_office
 ---
 
 # Project Management

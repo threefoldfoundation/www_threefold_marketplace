@@ -1,5 +1,6 @@
 ---
 id: neo
+tag: blockchain_solutions
 ---
 
 # NEO

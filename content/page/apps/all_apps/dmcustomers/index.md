@@ -1,5 +1,6 @@
 ---
 id: crm
+tag: decentralized_office
 ---
 
 # CRM

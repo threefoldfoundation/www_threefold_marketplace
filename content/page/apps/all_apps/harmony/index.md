@@ -1,5 +1,6 @@
 ---
 id: harmony
+tag: blockchain_solutions
 ---
 
 # Harmony

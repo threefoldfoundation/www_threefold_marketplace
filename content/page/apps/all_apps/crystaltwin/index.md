@@ -1,5 +1,6 @@
 ---
 id: crystaltwin
+tag: decentralized_community
 ---
 
 # Crystal Twin

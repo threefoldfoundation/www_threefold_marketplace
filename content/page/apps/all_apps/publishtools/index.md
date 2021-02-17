@@ -1,5 +1,6 @@
 ---
 id: publishtools
+tag: decentralized_community
 ---
 
 # Publishing Tools

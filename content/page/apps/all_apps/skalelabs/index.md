@@ -1,5 +1,6 @@
 ---
 id: skale
+tag: blockchain_solutions
 ---
 
 # SKALE Network

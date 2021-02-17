@@ -1,5 +1,6 @@
 ---
 id: blog_publisher
+tag: decentralized_community
 ---
 
 # Blog Publisher

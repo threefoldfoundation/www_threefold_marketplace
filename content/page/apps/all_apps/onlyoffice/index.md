@@ -1,5 +1,6 @@
 ---
 id: onlyoffice
+tag: decentralized_office
 ---
 
 # Office Tools
