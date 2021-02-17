@@ -1,6 +1,6 @@
 ---
 id: home
-header_title: BETTER SAFE. NEVER SORRY.
+header_title: BETTER SAFE NEVER SORRY
 header_image: ./home_header.png
 header_altImg: marketplace
 header_excerpt: Peer-to-Peer tools and applications which allow you to scale your community freely and privately, leaving all your security concerns behind. 
