@@ -1,5 +1,5 @@
 ---
-id: product1
+id: app1
 title: ''
 image : ./video_conf.png
 ---

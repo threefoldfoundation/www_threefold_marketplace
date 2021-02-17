@@ -1,7 +1,6 @@
 ---
 id: apps
-header: header	
-productsMain: product
-productData: [product1, product2, product3]
+productsMain: apps_list
+productData: [app1, app2, app3]
 cta: apps_cta
 ---

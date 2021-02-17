@@ -1,5 +1,5 @@
 ---
-id: product
+id: apps_list
 title: DECENTRALIZED SOLUTIONS
 subtitle: FAST, PRIVATE & ALLOWS YOU TO ROAM FREE 
 ---
