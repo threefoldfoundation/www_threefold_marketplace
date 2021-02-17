@@ -1,7 +1,7 @@
 ---
 id: home_cta
-title: Can't find the perfect app?
-button: Contact Us
+title: CAN'T FIND THE PERFECT APP?
+button: CONTACT US
 link: '' #Add button link here
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: home_comparison
-title: Marketplace Favorites
+title: MARKETPLACE FAVORITES
 description: Hand-picked as the best decentralized solutions, guaranteeing efficiency and security in one package.
-button: See All Apps
+button: SEE ALL APPS
 link: 'https://marketplace.threefold.io/marketplace/#/'
 ---
