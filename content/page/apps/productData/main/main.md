@@ -1,5 +1,5 @@
 ---
 id: product
-title: product
-subtitle: Subtitle
+title: DECENTRALIZED SOLUTIONS
+subtitle: FAST, PRIVATE & ALLOWS YOU TO ROAM FREE 
 ---
