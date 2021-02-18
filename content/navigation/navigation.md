@@ -1,47 +1,20 @@
 ---
 id: navigation
 navLinks:
-  - name: Page1
-    link: /page1
+  - name: About
+    link: /about
     external: false
     expandable: false
-
-  - name: Dropdown
-    link: /dropdown
-    external: false
-    expandable: true
     submenu:
-      - title: Page2
-        path: /page2
+      - title: ''
+        path: ''
 
-      - title: Page3
-        path: /page3
+      - title: ''
+        path: ''
 
-  - name: People
-    link: /people
-    external: false
-    expandable: true
-    submenu:
-      - title: Team
-        path: /team
-
-      - title: Partners
-        path: /partners
-
-  - name: More
-    link: /more
-    external: false
-    expandable: true
-    submenu:
-      - title: NewsRoom
-        path: /news
-
-      - title: Blog
-        path: /blog
-
-      - title: Community
-        path: https://forums.threefold.io/
-        external: true
+      - title: ''
+        path: ''
+        external: false
 
 social:
   - icon: telegram-plane

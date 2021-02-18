@@ -9,10 +9,19 @@
       :link="$page.markdownPage.link"
     />
 
-    <SolutionsHeader
+    <Comparison
+        v-if="
+          $page.markdownPage.comparisonSecs &&
+          $page.markdownPage.comparisonSecs.length > 0
+        "
+        :main="$page.markdownPage.comparisonMain"
+        :sections="$page.markdownPage.comparisonSecs"
+    />
+
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
-    />
+    /> -->
 
     <NewCard
       v-for="card in $page.markdownPage.cards"
@@ -22,20 +31,20 @@
 
     <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
 
-    <logoShowcase
+    <!-- <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
       :logos="$page.markdownPage.logos"
-    />
+    /> -->
 
-    <InTheNews
+    <!-- <InTheNews
       v-if="$page.markdownPage.inTheNews"
       :news="$page.markdownPage.inTheNews"
-    />
+    /> -->
 
-    <SignUp
+    <!-- <SignUp
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
-    />
+    /> -->
   </Layout>
 </template>
 
@@ -58,6 +67,19 @@
          link1
          btn2
          link2
+        }
+        comparisonMain{
+          id
+          title
+          description
+          button
+          link
+        }
+        comparisonSecs{
+          id
+          image
+          title
+          content
         }
         cards{
           id
@@ -104,6 +126,7 @@
 <script>
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
+import Comparison from "~/components/custom/sections/Comparison.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
@@ -114,6 +137,7 @@ export default {
   components: {
     Header,
     SolutionsHeader,
+    Comparison,
     NewCard,
     CallToAction,
     logoShowcase,

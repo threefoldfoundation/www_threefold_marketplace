@@ -4,15 +4,15 @@
       {{ main.title }}
     </h2>
     <p class="text-gray-600">{{ main.description }}</p>
-    <div class="flex flex-wrap items-center -mx-8 mt-12 mb-2">
+    <div class="flex flex-wrap items-center mx-8 mt-12 mb-2">
       <div
-        class="lg:w-1/3 px-8 mb-8"
+        class="lg:w-1/3 px-6 mb-2"
         v-for="(section, index) in sections"
         :key="index"
       >
         <g-image
-          class="w-1/2 mx-auto mb-8 h-32"
-          :src="section.svg.src"
+          class="mx-auto mb-8"
+          :src="img(section.image)"
           :alt="section.title"
         />
         <h3 class="text-2xl mb-4 font-semibold font-heading">
@@ -28,7 +28,7 @@
     <div>
       <g-link
         v-if="main.button"
-        class="bg-gray-900 learn-button hover:bg-gray-700 text-gray-100 px-5 py-3 mr-3 font-semibold rounded shadow"
+        class="bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-12 py-2 mr-5 rounded shadow rounded-full"
         :to="main.link"
         >{{ main.button }}</g-link
       >
@@ -39,5 +39,12 @@
 <script>
 export default {
   props: ["main", "sections"],
+  methods: {
+    img(image) {
+      if (!image) return "";
+      if (image.src) return image.src;
+      return image;
+    },
+  },
 };
 </script>

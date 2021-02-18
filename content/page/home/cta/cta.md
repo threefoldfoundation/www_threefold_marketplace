@@ -1,8 +1,8 @@
 ---
 id: home_cta
-title: TITLE
-button: Button
+title: CAN'T FIND THE PERFECT APP?
+button: CONTACT US
 link: '' #Add button link here
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+Looking for something you truly love but having a hard time finding it? Let us know about that special one and our team will help you getting it to the grid!

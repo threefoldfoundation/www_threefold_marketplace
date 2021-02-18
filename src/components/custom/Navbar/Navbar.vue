@@ -11,20 +11,12 @@
         <div class="inline-flex items-center flex-shrink-0">
           <a href="/" class="flex">
             <img
-              src="/img/TFN_black.svg"
+              src="@/assets/images/marketplace_logo.svg"
               class="mr-3 fill-current"
               width="180"
-              v-if="theme == 'light'"
               alt=""
             />
 
-            <img
-              src="/img/TFN_white.svg"
-              class="mr-3 fill-current"
-              width="180"
-              v-else
-              alt=""
-            />
             <!-- <span
               class="hidden md:block font-semibold text-xl tracking-tight"
               >{{ $static.metadata.siteName }}</span
@@ -54,9 +46,9 @@
         </div>
         <div class="text-gray-400 sm:block md:hidden">
           <ul class="list-none flex justify-center md:justify-end">
-            <li class="mr-0 sm:mr-6">
+            <!-- <li class="mr-0 sm:mr-6">
               <theme-switcher v-on="$listeners" :theme="theme" />
-            </li>
+            </li> -->
             <li
               :key="element.name"
               v-for="(element, index) in navigation.social"
@@ -195,9 +187,9 @@
           />
         </div> -->
         <ul class="list-none inline-flex justify-center md:justify-end">
-          <li class="mr-0 sm:mr-6">
+          <!-- <li class="mr-0 sm:mr-6">
             <ThemeSwitcher v-on="$listeners" :theme="theme" />
-          </li>
+          </li> -->
           <li
             :key="element.name"
             v-for="(element, index) in navigation.social"
@@ -308,7 +300,6 @@ a.active--exact.active {
   background-color: rgba(237, 242, 247, 1);
   border-radius: 0.5rem;
 }
-
 .navbar {
   width: auto;
 }

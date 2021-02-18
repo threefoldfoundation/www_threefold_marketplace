@@ -1,10 +1,10 @@
 ---
-id: card1
-title: TITLE
-image: ./image_name.png
-button: Button
+id: home_card
+title: Building the most complete P2P Marketplace
+image: ./home_card.png
+button: ''
 link: '' #link for button
-order: 1
+order: 6
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+And you are in the center of it all. With a growing number of applications constantly being added to our selection, we are excited to bring to you a marketplace which focuses on security and privacy. Powerful edge technology allows your data to travel with you and eliminates the concerns of the current centralized internet.

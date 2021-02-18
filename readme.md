@@ -1,5 +1,5 @@
 
-# ThreeFold marketplace webiste
+# ThreeFold Marketplace website 
 
 ### how to get started
 
