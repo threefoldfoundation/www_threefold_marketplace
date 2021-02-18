@@ -1,6 +1,6 @@
 ---
 id: section2
-svg: ''
+image: ''
 title: SECURE
 ---
 

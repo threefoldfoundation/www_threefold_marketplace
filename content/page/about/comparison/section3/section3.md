@@ -1,6 +1,6 @@
 ---
 id: section3
-svg: ''
+image: ""
 title: SUSTAINABLE
 ---
 

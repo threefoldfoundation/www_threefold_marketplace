@@ -188,7 +188,7 @@
         }
         comparisonSecs{
           id
-          image
+          img
           title
           content
         }
@@ -306,9 +306,6 @@ export default {
     return {
       title: this.$page.markdownPage.title,
     };
-  },
-  mounted() {
-    console.log(this.$page.markdownPage);
   },
 };
 </script>

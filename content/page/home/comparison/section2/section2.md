@@ -1,5 +1,6 @@
 ---
 id: app_2
-image: ./peertube.png
-title: ''
+app_id: video_share
+img: ./peertube.png
+title: ""
 ---

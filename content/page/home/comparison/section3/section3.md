@@ -1,5 +1,6 @@
 ---
 id: app_3
-image: ./cryptpad.png
-title: ''
+app_id: digital_me
+img: ./cryptpad.png
+title: ""
 ---
