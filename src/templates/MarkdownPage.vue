@@ -188,7 +188,7 @@
         }
         comparisonSecs{
           id
-          image
+          img
           title
           content
         }
