@@ -160,6 +160,13 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Apps',
+                path: './content/page/**/all_apps/**/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'MarkdownPage',
                 path: './content/page/*/*.md',
                 refs: {
@@ -186,7 +193,8 @@ module.exports = {
                     plans: 'Plans',
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
-                    allSlides : 'About'
+                    allSlides: 'About',
+                    apps: 'Apps'
                 }
             }
         },
@@ -225,6 +233,7 @@ module.exports = {
                 },
             }
         },
+
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -250,7 +259,7 @@ module.exports = {
         },
 
         {
-             use: '@gridsome/source-filesystem',
+            use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'News',
                 path: './content/news/**/*.md',
@@ -350,7 +359,6 @@ module.exports = {
         MarkdownPage: [{
             path: '/:id',
             component: '~/templates/MarkdownPage.vue',
-
         }],
 
         BlogTag: [{
@@ -387,6 +395,13 @@ module.exports = {
             path: '/team/:id',
             component: '~/templates/Person.vue'
         }],
+
+        Apps: [{
+            path: '/apps/:id',
+            component: '~/templates/Apps.vue'
+        }],
+
+
         PersonTag: [{
             path: '/team/tags/:id',
             component: '~/templates/Tag.vue'

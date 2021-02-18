@@ -10,12 +10,12 @@
     />
 
     <Comparison
-        v-if="
-          $page.markdownPage.comparisonSecs &&
-          $page.markdownPage.comparisonSecs.length > 0
-        "
-        :main="$page.markdownPage.comparisonMain"
-        :sections="$page.markdownPage.comparisonSecs"
+      v-if="
+        $page.markdownPage.comparisonSecs &&
+        $page.markdownPage.comparisonSecs.length > 0
+      "
+      :main="$page.markdownPage.comparisonMain"
+      :sections="$page.markdownPage.comparisonSecs"
     />
 
     <!-- <SolutionsHeader
@@ -77,6 +77,7 @@
         }
         comparisonSecs{
           id
+          app_id
           image
           title
           content
@@ -149,5 +150,8 @@ export default {
       title: this.$page.markdownPage.title,
     };
   },
+  // mounted() {
+  //   console.log(this.$page.markdownPage.apps);
+  // },
 };
 </script>

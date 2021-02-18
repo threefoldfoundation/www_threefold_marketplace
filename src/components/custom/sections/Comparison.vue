@@ -10,11 +10,13 @@
         v-for="(section, index) in sections"
         :key="index"
       >
-        <g-image
-          class="mx-auto mb-8"
-          :src="img(section.image)"
-          :alt="section.title"
-        />
+        <g-link :to="path(section.app_id)" class="post-card-image-link">
+          <g-image
+            class="mx-auto mb-8"
+            :src="img(section.image)"
+            :alt="section.title"
+          />
+        </g-link>
         <h3 class="text-2xl mb-4 font-semibold font-heading">
           <!-- <span
             class="inline-flex items-center justify-center h-12 w-12 mr-2 border rounded-full"
@@ -44,6 +46,9 @@ export default {
       if (!image) return "";
       if (image.src) return image.src;
       return image;
+    },
+    path(id) {
+      return "apps" + "/" + id;
     },
   },
 };
