@@ -1,6 +1,6 @@
 ---
 id: section1
-svg: ''
+image: ''
 title: PRIVATE
 ---
 
