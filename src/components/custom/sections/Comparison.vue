@@ -10,10 +10,14 @@
         v-for="(section, index) in sections"
         :key="index"
       >
-        <g-link :to="path(section.app_id)" class="post-card-image-link">
+        <g-link
+          v-if="section.app_id"
+          :to="appPath(section.app_id)"
+          class="post-card-image-link"
+        >
           <g-image
             class="mx-auto mb-8"
-            :src="img(section.image)"
+            :src="img(section.img)"
             :alt="section.title"
           />
         </g-link>
@@ -47,7 +51,7 @@ export default {
       if (image.src) return image.src;
       return image;
     },
-    path(id) {
+    appPath(id) {
       return "apps" + "/" + id;
     },
   },

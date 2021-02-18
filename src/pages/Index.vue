@@ -78,7 +78,7 @@
         comparisonSecs{
           id
           app_id
-          image
+          img
           title
           content
         }

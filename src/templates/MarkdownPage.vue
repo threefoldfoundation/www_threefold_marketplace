@@ -307,9 +307,6 @@ export default {
       title: this.$page.markdownPage.title,
     };
   },
-  mounted() {
-    console.log(this.$page.markdownPage);
-  },
 };
 </script>
 <style scoped>
