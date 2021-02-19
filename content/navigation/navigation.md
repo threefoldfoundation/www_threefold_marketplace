@@ -15,7 +15,10 @@ navLinks:
       - title: ''
         path: ''
         external: false
-
+  - name: Apps
+    link: /apps
+    external: false
+    expandable: false
 social:
   - icon: telegram-plane
     link: '' #telegaram link
