@@ -1,5 +1,5 @@
 ---
-id: wiki_publish
+id: wiki_publisher
 tag: decentralized_community
 ---
 
