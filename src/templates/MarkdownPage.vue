@@ -158,12 +158,11 @@
           id
           title
           subtitle
-      #    image
+        #  image
         }
        productData{
          id
          title
-         content
          image
        }
         featuresMain{

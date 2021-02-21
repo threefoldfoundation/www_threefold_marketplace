@@ -158,9 +158,8 @@
         path
       }
     }
-} 
-
-  }
+  } 
+}
 </page-query>
 
 <script>

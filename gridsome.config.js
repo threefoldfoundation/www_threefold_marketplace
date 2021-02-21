@@ -160,7 +160,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'Apps',
+                typeName: 'AppsMain',
+                path: './content/page/**/productData/main/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'AppsShowCase',
+                path: './content/page/**/productData/**/*.md',
+            }
+        },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Applications',
                 path: './content/page/**/all_apps/**/*.md',
             }
         },
@@ -194,7 +209,9 @@ module.exports = {
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
                     allSlides: 'About',
-                    apps: 'Apps'
+                    productsMain: 'AppsMain',
+                    productData: 'AppsShowCase',
+                    apps: 'Applications'
                 }
             }
         },
@@ -255,6 +272,17 @@ module.exports = {
                     }
 
                 }
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'App',
+                path: './content/page/applications/all_apps/**/*.md',
+                templates: {
+                    App: '/apps/:id'
+                },
             }
         },
 
@@ -396,11 +424,15 @@ module.exports = {
             component: '~/templates/Person.vue'
         }],
 
-        Apps: [{
+        App: [{
             path: '/apps/:id',
-            component: '~/templates/Apps.vue'
+            component: '~/templates/App.vue'
         }],
 
+        // AppsTag: [{
+        //     path: '/apps/tags/:id',
+        //     component: '~/templates/Tag.vue'
+        // }],
 
         PersonTag: [{
             path: '/team/tags/:id',
