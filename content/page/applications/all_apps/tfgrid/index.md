@@ -1,8 +1,8 @@
 ---
 id: tf_grid
 title: The ThreeFold Grid
-tags: [decentralized_cloud]
-image: ./img/cloud2.png
+tags: []
+image: ''
 ---
 
 # The ThreeFold Grid
