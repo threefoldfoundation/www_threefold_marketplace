@@ -33,21 +33,19 @@ query ($private: Int){
   projects: allProject (filter: { private: { ne: $private }, tags: { id: {in: ["farming"]}}}){   
     edges {
         node {
-                id
+          id
           title
           path
           members {
             id
-          name
-          image(width:64, height:64, fit:inside)
-          path
+            name
+            image(width:64, height:64, fit:inside)
+            path
       }
         rank
         linkedin
-        startDate : startdate(format:"MM YYYY")
         humanTime : created(format:"DD MMMM YYYY")
         datetime : created(format:"ddd MMM DD YYYY hh:mm:ss zZ")
-        status
         excerpt
         image(width:800)
         path
