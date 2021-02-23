@@ -1,7 +1,8 @@
 ---
 id: taiga
-title: decentralized office
-tag: decentralized_office
+title: taiga
+tags: [decentralized_office]
+image: ./img/taiga.png
 ---
 
 # Project Management

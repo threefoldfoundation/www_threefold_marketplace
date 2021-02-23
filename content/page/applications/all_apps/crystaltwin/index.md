@@ -1,7 +1,8 @@
 ---
 id: crystaltwin
-title: decentralized community
-tag: decentralized_community
+title: Crystal Twin
+tags: [decentralized_community]
+image: ./img/crystaltwin.png
 ---
 
 # Crystal Twin

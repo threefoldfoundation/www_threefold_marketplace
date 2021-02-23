@@ -1,7 +1,8 @@
 ---
 id: waykichain
-title: blockchain solutions
-tag: blockchain_solutions
+title: WaykiChain
+tags: [blockchain_solutions]
+image: ./img/waykichain.png
 ---
 
 # WaykiChain

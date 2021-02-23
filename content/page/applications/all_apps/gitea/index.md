@@ -1,7 +1,8 @@
 ---
 id: gitea
-title: decentralized developer
-tag: decentralized_developer
+title: gitea
+tags: [decentralized_developer]
+image: ./img/gitea.png
 ---
 
 # Git Service

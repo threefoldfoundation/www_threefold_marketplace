@@ -1,7 +1,8 @@
 ---
 id: stellar
-title: blockchain solutions
-tag: blockchain_solutions
+title: stellar
+tags: [blockchain_solutions]
+image: ./img/steller.png
 ---
 
 # Stellar

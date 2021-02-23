@@ -1,7 +1,8 @@
 ---
 id: commento
-title: decentralized community
-tag: decentralized_community
+title: commento
+tags: [decentralized_community]
+image : ./img/commento.png
 ---
 
 # Comments Widget

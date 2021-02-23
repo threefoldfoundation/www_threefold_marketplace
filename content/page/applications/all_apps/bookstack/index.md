@@ -1,7 +1,8 @@
 ---
 id: bookstack
-title: decentralized community
-tag: decentralized_community
+title: bookstack
+tags: [decentralized_community]
+image : ./img/bookstack.png
 ---
 
 # BookStack Knowledge Base

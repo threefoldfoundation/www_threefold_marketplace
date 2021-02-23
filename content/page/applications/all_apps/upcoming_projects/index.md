@@ -1,6 +1,7 @@
 ---
 id: upcoming_projects
-tag:
+title:
+tags: []
 ---
 
 # Coming Up!

@@ -1,7 +1,8 @@
 ---
 id: wiki_publisher
-title: decentralized community
-tag: decentralized_community
+title: Wiki Publisher
+tags: [decentralized_community]
+image: ./img/wiki_publisher.png
 ---
 
 # Wiki Publisher

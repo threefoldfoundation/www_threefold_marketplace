@@ -1,25 +1,17 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <!-- <TagFilterHeader
-      :tags="memberships"
-      selected="all"
-      v-if="$page.memberships.edges.length > 1"
-    /> -->
-    <Header
-      :title="$page.markdownPage.header_title"
-      :image="$page.markdownPage.header_image"
-      :altImg="$page.markdownPage.header_altImg"
-      :excerpt="$page.markdownPage.header_excerpt"
-      :button="$page.markdownPage.button"
-      :link="$page.markdownPage.link"
+    <TagFilterHeader
+      :tags="appsTag"
+      selected="all tags"
+      v-if="$page.topics.edges.length > 1"
     />
 
     <ShowcaseProducts
       :main="$page.markdownPage.productsMain"
-      :products="$page.markdownPage.productData"
+      :products="$page.markdownPage.apps"
       v-if="
-        $page.markdownPage.productData &&
-        $page.markdownPage.productData.length > 0
+        $page.markdownPage.apps &&
+        $page.markdownPage.apps.length > 0
       "
     />
 
@@ -32,12 +24,6 @@
     markdownPage(id: "applications") {
         id
         path
-        header_title
-        header_image
-        header_excerpt
-        header_altImg
-        button
-        link
         comparisonMain{
           id
           title
@@ -65,12 +51,21 @@
           subtitle
           #image
         }
-        productData{
+        apps{
          id
          title
          image
        }
     }
+  topics: allAppsTag{
+    edges{
+      node{
+        id
+        title
+        path        
+      }
+    }
+  }
 }
 
 </page-query>
@@ -88,11 +83,20 @@ export default {
   },
   metaInfo() {
     return {
-      title: this.$page.markdownPage.title,
+      title: "Apps",
     };
   },
-  // mounted() {
-  //   console.log(this.$page.markdownPage.apps);
-  // },
+  computed: {
+    appsTag() {
+      var res = [{ title: "All", path: "/apps" }];
+      this.$page.topics.edges.forEach((edge) =>
+        res.push({ title: edge.node.title, path: edge.node.path })
+      );
+      return res;
+    },
+  },
+  mounted() {
+    console.log(this.$page.markdownPage);
+  },
 };
 </script>

@@ -9,7 +9,7 @@
     <div class="container sm:px-0 mx-auto overflow-x-hidden pt-12">
       <div class="mx-4 sm:mx-0">
         <h1 class="pb-0 mb-0 text-5xl font-medium capitalize">
-          {{ tags.title }}
+          {{ tags.title.replace("_", " ") }}
         </h1>
         <p class="text-gray-700 text-xl">
           <span class="self-center"
@@ -130,6 +130,26 @@
       }
     }
 
+    appsTag(id: $id) {
+      title
+      path
+      belongsTo{
+        totalCount
+        pageInfo {
+          totalPages
+          currentPage
+        }
+        edges {
+          node {
+            ... on App {
+              title
+              image
+              path
+            }
+          }
+        }
+      }
+    }
     allProjectTag(filter: { title: {in: ["farming", "cloud", "grid", "digitaltwin"]}}){
       edges{
         node{
@@ -159,6 +179,16 @@
       }
     }
   } 
+
+    allAppsTag{
+     edges{
+      node{
+        id
+        title
+        path
+      }
+    }
+  } 
 }
 </page-query>
 
@@ -166,6 +196,7 @@
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
 import Pagination from "~/components/custom/Pagination.vue";
 import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
+import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 
 export default {
   components: {
@@ -190,17 +221,27 @@ export default {
       } else if (this.$page.blogTag) {
         path = "/blog";
         tags = this.$page.allBlogTag;
+      } else if (this.$page.appsTag) {
+        path = "/apps";
+        tags = this.$page.allAppsTag;
       }
-
       var res = [{ title: "All Tags", path: path }];
       tags.edges.forEach((edge) =>
-        res.push({ title: edge.node.title, path: edge.node.path })
+        res.push({
+          title: edge.node.title.replace("_", " "),
+          path: edge.node.path,
+        })
       );
       return res;
     },
 
     tags() {
-      return this.$page.projectTag || this.$page.newsTag || this.$page.blogTag;
+      return (
+        this.$page.projectTag ||
+        this.$page.newsTag ||
+        this.$page.blogTag ||
+        this.$page.appsTag
+      );
     },
     item() {
       var plural = this.tags.belongsTo.totalCount > 0;
@@ -228,7 +269,7 @@ export default {
   },
   mounted() {
     document.addEventListener("click", this.close);
-    console.log(this.$page.projectTag);
+    console.log(this.tagTitles);
   },
   beforeDestroy() {
     document.removeEventListener("click", this.close);

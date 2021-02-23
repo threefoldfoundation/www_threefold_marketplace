@@ -1,7 +1,8 @@
 ---
 id: skale
-title: blockchain solutions
-tag: blockchain_solutions
+title: skale
+tags: [blockchain_solutions]
+image: ./img/skale.png
 ---
 
 # SKALE Network

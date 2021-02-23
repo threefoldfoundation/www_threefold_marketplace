@@ -161,17 +161,17 @@ module.exports = {
             use: '@gridsome/source-filesystem',
             options: {
                 typeName: 'AppsMain',
-                path: './content/page/**/productData/main/*.md',
+                path: './content/page/**/all_apps/main/*.md',
             }
         },
 
-        {
-            use: '@gridsome/source-filesystem',
-            options: {
-                typeName: 'AppsShowCase',
-                path: './content/page/**/productData/**/*.md',
-            }
-        },
+        // {
+        //     use: '@gridsome/source-filesystem',
+        //     options: {
+        //         typeName: 'AppsShowCase',
+        //         path: './content/page/**/productData/**/*.md',
+        //     }
+        // },
         {
             use: '@gridsome/source-filesystem',
             options: {
@@ -210,7 +210,7 @@ module.exports = {
                     brandPanel: 'BrandPanel',
                     allSlides: 'About',
                     productsMain: 'AppsMain',
-                    productData: 'AppsShowCase',
+                    productData: 'Applications',
                     apps: 'Applications'
                 }
             }
@@ -276,14 +276,21 @@ module.exports = {
         },
 
         {
-            use: '@gridsome/source-filesystem',
+            use: "@gridsome/source-filesystem",
             options: {
-                typeName: 'App',
+                typeName: "App",
                 path: './content/page/applications/all_apps/**/*.md',
                 templates: {
                     App: '/apps/:id'
                 },
-            }
+                refs: {
+                    // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+                    tags: {
+                        typeName: "AppsTag",
+                        create: true,
+                    },
+                },
+            },
         },
 
         {
@@ -429,10 +436,10 @@ module.exports = {
             component: '~/templates/App.vue'
         }],
 
-        // AppsTag: [{
-        //     path: '/apps/tags/:id',
-        //     component: '~/templates/Tag.vue'
-        // }],
+        AppsTag: [{
+            path: '/apps/tags/:id',
+            component: '~/templates/Tag.vue'
+        }],
 
         PersonTag: [{
             path: '/team/tags/:id',

@@ -1,7 +1,8 @@
 ---
 id: onlyoffice
-title: decentralized office
-tag: decentralized_office
+title: onlyoffice
+tags: [decentralized_office]
+image: ./img/onlyoffice.png
 ---
 
 # Office Tools

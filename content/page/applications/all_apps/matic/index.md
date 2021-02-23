@@ -1,7 +1,8 @@
 ---
 id: matic
-title: blockchain solutions
-tag: blockchain_solutions
+title: matic
+tags: [blockchain_solutions]
+image: ./img/matic.png
 ---
 
 # Matic Network

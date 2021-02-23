@@ -1,7 +1,8 @@
 ---
 id: serverless
-title: decentralized developer
-tag: decentralized_developer
+title: serverless
+tags: [decentralized_developer]
+image: ./img/serverless.png
 ---
 
 # Serverless App Framework

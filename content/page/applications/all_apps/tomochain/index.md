@@ -1,7 +1,8 @@
 ---
 id: tomochain
-title: blockchain solutions
-tag: blockchain_solutions
+title: TomoChain
+tags: [blockchain_solutions]
+image: ./img/tomochain.png
 ---
 
 # TomoChain

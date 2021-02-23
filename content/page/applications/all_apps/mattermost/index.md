@@ -1,7 +1,8 @@
 ---
 id: mattermost
-title: decentralized office
-tag: decentralized_office
+title: mattermost
+tags: [decentralized_office]
+image: ./img/mattermost.png
 ---
 
 # Team Collaboration

@@ -1,7 +1,8 @@
 ---
 id: file_browser
-title: decentralized office
-tag: decentralized_office
+title: file browser
+tags: [decentralized_office]
+image: ./img/file_browser.png
 ---
 
 # File Browser

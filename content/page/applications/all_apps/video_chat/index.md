@@ -1,7 +1,8 @@
 ---
 id: video_chat
-title: decentralized community
-tag: decentralized_community
+title: Video Chat
+tags: [decentralized_community]
+image: ./img/video_chat.png
 ---
 
 # Video Chat

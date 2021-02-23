@@ -1,7 +1,8 @@
 ---
 id: dash
-title: blockchain solutions
-tag: blockchain_solutions
+title: dash
+tags: [blockchain_solutions]
+image: ./img/dash.png
 ---
 
 # Dash

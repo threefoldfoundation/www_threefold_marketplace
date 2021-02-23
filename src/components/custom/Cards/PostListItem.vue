@@ -12,7 +12,7 @@
     </g-link>
     <div>
       <g-link :to="path">
-        <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
+        <!-- <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2> -->
         <p class="post-card-excerpt text-gray-700">{{ record.excerpt }}</p>
         <section
           class="flex flex-wrap post-tags container mx-auto relative py-1"
@@ -138,6 +138,6 @@ export default {
 
 .post-card-image {
   max-width: 100%;
-  /* height: auto; */
+  height: auto;
 }
 </style>

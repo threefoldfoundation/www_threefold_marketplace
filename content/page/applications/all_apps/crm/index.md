@@ -1,7 +1,8 @@
 ---
 id: crm
-title: decentralized office
-tag: decentralized_office
+title: crm
+tags: [decentralized_office]
+image: ./img/crm.png
 ---
 
 # CRM

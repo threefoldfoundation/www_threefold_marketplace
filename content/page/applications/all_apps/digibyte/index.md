@@ -1,7 +1,8 @@
 ---
 id: digibyte
-title: blockchain solutions
-tag: blockchain_solutions
+title: digibyte
+tags: [blockchain_solutions]
+image: ./img/digibyte.png
 ---
 
 # DigiByte

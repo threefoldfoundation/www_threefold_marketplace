@@ -1,7 +1,8 @@
 ---
 id: elrond
-title: blockchain solutions
-tag: blockchain_solutions
+title: elrond
+tags: [blockchain_solutions]
+image: ./img/elrond.png
 ---
 
 # Elrond

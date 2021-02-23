@@ -1,7 +1,8 @@
 ---
 id: neo
-title: blockchain solutions
-tag: blockchain_solutions
+title: neo
+tags: [blockchain_solutions]
+image: ./img/neo.png
 ---
 
 # NEO

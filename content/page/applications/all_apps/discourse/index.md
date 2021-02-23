@@ -1,7 +1,8 @@
 ---
 id: discourse
-title: decentralized office
-tag: decentralized_office
+title: discourse
+tags: [decentralized_office]
+image: ./img/discourse.png
 ---
 
 # Community Forum

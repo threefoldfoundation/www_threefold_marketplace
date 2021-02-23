@@ -14,7 +14,6 @@
   query($id: ID!) {
     app(id: $id) {
         id
-        tag
         content
       }
     }

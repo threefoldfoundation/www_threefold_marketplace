@@ -1,6 +1,7 @@
 ---
 id: digital_me
-tag: 
+title:
+tags: []
 ---
 
 # Intro (DigitalMe)

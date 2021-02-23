@@ -1,7 +1,8 @@
 ---
 id: virtual_spaces
-title: decentralized community
-tag: decentralized_community
+title: Virtual Spaces
+tags: [decentralized_community]
+image: ./img/virtual_spaces.png
 ---
 
 # Virtual Spaces

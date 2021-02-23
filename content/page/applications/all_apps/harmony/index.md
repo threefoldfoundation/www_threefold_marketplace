@@ -1,7 +1,8 @@
 ---
 id: harmony
-title: blockchain solutions
-tag: blockchain_solutions
+title: harmony
+tags: [blockchain_solutions]
+image: ./img/harmony.png
 ---
 
 # Harmony

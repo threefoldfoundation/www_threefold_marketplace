@@ -1,7 +1,8 @@
 ---
 id: zeroci
-title: decentralized developer
-tag: decentralized_developer
+title: ZeroCI
+tags: [decentralized_developer]
+image: ./img/zeroci.png
 ---
 
 # Continuous Integration Tool

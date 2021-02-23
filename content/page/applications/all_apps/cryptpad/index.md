@@ -1,7 +1,8 @@
 ---
 id: cryptpad
-title: decentralized office
-tag: decentralized_office
+title: cryptpad
+tags: [decentralized_office]
+image: ./img/cryptpad.png
 ---
 
 # Cryptpad Collaborative Docs

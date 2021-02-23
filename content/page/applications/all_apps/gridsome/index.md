@@ -1,7 +1,8 @@
 ---
 id: gridsome
-title: decentralized community
-tag: decentralized_community
+title: gridsome
+tags: [decentralized_community]
+image: ./img/gridsome.png
 ---
 
 # Modern Site Generator
