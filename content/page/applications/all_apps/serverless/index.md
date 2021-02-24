@@ -7,10 +7,11 @@ image: ./img/serverless.png
 
 # Serverless App Framework
 
+![](./img/serverless_opensource.png)
+<br/>
 *Note: This page is being worked on and will be expanded.*
-
-![](./img/serverless.png)
-
+<br/>
+<br/>
 Software is eating the world. Unfortunately, most businesses still can't deliver software successfully, and very few do so at the pace needed to stay competitive. For those who wish to keep up, let alone lead, software delivery & operation must be radically simplified.
 
 ## Open Source Solution: Serverless
@@ -33,5 +34,5 @@ Coming ...
 
 ## Tutorial: How to Deploy
 
-Coming soon – the Comments Widget is not yet available on the marketplace.
+Coming soon – the Serverless Widget is not yet available on the marketplace.
 

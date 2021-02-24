@@ -7,16 +7,19 @@ image: ./img/gitea.png
 
 # Git Service
 
-![](./img/gitea.png)
+![](./img/gitea_dashboard.png)
+<br/>
 
 *You can access the Git Service solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/gitea). Please note that the marketplace is currently running on testnet.*
-
+<br/>
+<br/>
 Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows. Git is widely used by developers globally.
 
 ## Open Source Solution: Gitea
 
 [Gitea](https://gitea.io/en-us/) is a painless, self-hosted Git service. It is similar to GitHub, Bitbucket, and GitLab. Gitea is a fork of Gogs.
-
+<br/>
+<br/>
 *Note: The below text is quite technical and mainly relevant for those with knowledge of Git.*
 
 ### How it all started
@@ -47,7 +50,7 @@ In the end, it is a powerful alternative to e.g. centralized Github.
 
 ## Tutorial: How to Deploy
 
-- First, visit [the Git Service solution](https://marketplace.threefold.io/marketplace/#/solutions/gitea) live on the marketplace
+- First, visit the Git Service solution live on the marketplace
 - You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
 - Once you enter this information, all you need to do is wait for the solution to deploy. You can keep an eye on the screen for progress.
 - Upon completion, you'll see a link to view your solution live and it will remain live in your My Workloads section for three hours.
