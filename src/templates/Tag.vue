@@ -18,7 +18,7 @@
         </p>
       </div>
 
-      <div class="pt-8 border-b"></div>
+      <!-- <div class="pt-8 border-b"></div> -->
 
       <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
@@ -195,7 +195,6 @@
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
 import Pagination from "~/components/custom/Pagination.vue";
 import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
-import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 
 export default {
   components: {
@@ -224,7 +223,7 @@ export default {
         path = "/apps";
         tags = this.$page.allAppsTag;
       }
-      var res = [{ title: "All Tags", path: path }];
+      var res = [{ title: "All", path: path }];
       tags.edges.forEach((edge) =>
         res.push({
           title: edge.node.title.replace("_", " "),
@@ -268,7 +267,6 @@ export default {
   },
   mounted() {
     document.addEventListener("click", this.close);
-    console.log(this.tagTitles);
   },
   beforeDestroy() {
     document.removeEventListener("click", this.close);

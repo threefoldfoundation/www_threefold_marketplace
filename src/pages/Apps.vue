@@ -2,17 +2,14 @@
   <Layout :hideHeader="true" :disableScroll="true">
     <TagFilterHeader
       :tags="appsTag"
-      selected="all tags"
+      selected="all"
       v-if="$page.topics.edges.length > 1"
     />
 
     <ShowcaseProducts
       :main="$page.markdownPage.productsMain"
       :products="$page.markdownPage.apps"
-      v-if="
-        $page.markdownPage.apps &&
-        $page.markdownPage.apps.length > 0
-      "
+      v-if="$page.markdownPage.apps && $page.markdownPage.apps.length > 0"
     />
 
     <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
@@ -94,9 +91,6 @@ export default {
       );
       return res;
     },
-  },
-  mounted() {
-    console.log(this.$page.markdownPage);
   },
 };
 </script>
