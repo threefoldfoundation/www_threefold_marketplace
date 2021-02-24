@@ -150,8 +150,8 @@ export default {
     titleTemplate: "ThreeFold Marketplace",
  
   },
-  // mounted() {
-  //   console.log(this.$page.markdownPage.apps);
-  // },
+  mounted() {
+    console.log(this.$page.markdownPage.comparisonSecs);
+  },
 };
 </script>

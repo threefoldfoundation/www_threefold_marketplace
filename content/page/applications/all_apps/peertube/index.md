@@ -1,6 +1,6 @@
 ---
 id: peertube
-title: peertube
+title: Peertube Video Sharing
 tags: [decentralized_community]
 image: ./img/peertube.png
 ---
