@@ -22,9 +22,10 @@ Many alternatives are available to the the dominant doc collaboration tools from
 - It has most of the same crucial functionalities you would be used to with existing tools.
 - More importantly, all the content stored on CryptPad is encrypted before being sent, which means nobody can access your data unless you give them the keys (not even us).
 - Encryption happens in the browser that is used to access the "pads" – and therefore the central storage facility used does not see un-encrypted data and only sees encrypted data passing by.
-
+<br/>
+<br/>
 ![](./img/cryptpad0.png)
-
+<br/>
 The ThreeFold team uses it for internal documents and collaboration, and now so can end-users on the ThreeFold Grid. The functionality includes:
 
 ## A rich text editor

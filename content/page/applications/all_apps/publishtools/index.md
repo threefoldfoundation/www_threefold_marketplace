@@ -8,6 +8,7 @@ image: ./img/publishtools.png
 # Publishing Tools
 
 ![](./img/website_browser.png)
+<br/>
 
 *Note: In the [ThreeFold Now Marketplace](https://marketplace.threefold.io), you will see separate widgets for Website, Blog, & Wiki.*
 
@@ -31,6 +32,7 @@ While the tools available in the market tend to make things quite easy, they com
 Note that building and deploying a website using these tools does require more technical know-how and obviously the ease of use of website builders is a huge draw. So, in the short term this is not for everybody, but we'll be optimizing this for the everyday person as we go.
 
 ![](./img/wiki_deployment_1.png)
+<br/>
 
 ## Tutorial: How to Deploy
 

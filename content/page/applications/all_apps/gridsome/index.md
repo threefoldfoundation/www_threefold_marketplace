@@ -17,8 +17,6 @@ image: ./img/gridsome.png
 
 ## How does it work?
 
-![](./img/gridsome.png)
-
 More info on https://gridsome.org/.
 
 ## Why use Gridsome?

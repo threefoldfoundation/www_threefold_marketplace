@@ -7,7 +7,8 @@ image: ./img/mattermost.png
 
 # Team Collaboration
 
-![](./img/mattermost.png)
+![](./img/mattermost_header.png)
+<br/>
 
 *You can access the Team Collaboration solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/mattermost). Please note that the marketplace is currently running on testnet.*
 

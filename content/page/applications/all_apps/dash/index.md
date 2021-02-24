@@ -25,8 +25,6 @@ Giving Dash Full node and Masternode operators extra IT superpowers!
 
 ## Dash and ThreeFold
 
-![](./img/dash2.png)
-
 Dash  has established itself as a leader in the digital currency and Blockchain space with their advanced payment mechanism and highly-efficient governance model.
 
 - With ThreeFold, Dash and its community of Full node and Masternode operators have access to the world's largest P2P cloud capacity.

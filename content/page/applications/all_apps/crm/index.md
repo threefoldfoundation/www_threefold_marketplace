@@ -8,7 +8,8 @@ image: ./img/crm.png
 # CRM
 
 ![](./img/orocrm_1.png)
-
+<br/>
+<br/>
 Customer Relationship Management (CRM) means knowing your customers inside and out, while being able to anticipate future needs. Businesses small and large all around the world are looking for tools to be able to manage their customer relationships. And when it comes to customer data, safety and security are of the highest priority.
 
 ## Open Source Solution: OroCRM
@@ -25,9 +26,11 @@ OroCRM provides a full featured CRM system that provides fantastic functionality
 - Sales and Marketing Performance Dashboards
 
 And provides the safety and security you are looking for when it comes to your customers' data.
-
+<br/>
+<br/>
 ![](./img/orocrm_screenshot1.png)
-
+<br/>
+<br/>
 > This software is supported & created by https://oroinc.com/ <BR>
 > Please contact them for any support or commercial license.
 

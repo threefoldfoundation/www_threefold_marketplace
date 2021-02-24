@@ -5,9 +5,10 @@ tags: [decentralized_office]
 image: ./img/discourse.png
 ---
 
-# Community Forum
+# Discourse - Community Forum
 
-![](./img/discourse.png)
+![](./img/discourse_header.png)
+<br/>
 
 *You can access the Community Forum solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/discourse). Please note that the marketplace is currently running on testnet.*
 

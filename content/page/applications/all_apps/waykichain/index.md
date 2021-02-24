@@ -7,7 +7,8 @@ image: ./img/waykichain.png
 
 # WaykiChain
 
-![](./img/waykichain1.png)
+![](./img/waykichain_header.png)
+<br/>
 
 ## Joint Mission
 

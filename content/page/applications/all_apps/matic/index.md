@@ -23,8 +23,6 @@ Distributing Matic's Blockchain across the edges!
 
 ## Matic Network and ThreeFold
 
-![](./img/matic2.png)
-
 Matic and ThreeFold joined forces to provide key benefits in successfully running a validator node and other related IT workloads on the Matic Blockchain, which are primarily the ease-of-deployment, customization, privacy, and monitoring.
 
 - By leveraging the ThreeFold P2P Cloud and 3Bot, the Matic community – developers and non-developes – receive all of these benefits.

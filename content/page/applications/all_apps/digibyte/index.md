@@ -7,7 +7,8 @@ image: ./img/digibyte.png
 
 # DigiByte
 
-![](./img/digibyte.png)
+![](./img/digibyte_header.png)
+<br/>
 
 ## Joint Mission
 
@@ -22,8 +23,6 @@ Decentralizing and optimizing IT for the DigiByte node ecosystem!
 - They protect and promote the true principles of decentralization and empower DigiByte and its community to establish and maintain a sustainable decentralized world.
 
 ## DigiByte and ThreeFold
-
-![](./img/digibyte1.png)
 
 Through our partnership with the DigiByte Foundation, we empower the DGB community with a decentralized cloud infrastructure to deploy DigiByte nodes and help secure and expand the DGB network across the geographical edges. 
 

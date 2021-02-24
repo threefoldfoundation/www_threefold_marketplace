@@ -25,8 +25,6 @@ Serving Harmony and its validator node community with 1-Click deployments and cl
 
 ## Harmony and ThreeFold
 
-![](./img/harmony2.png)
-
 Harmony.one and ThreeFold joined forces to provide a performant, decentralized and customizable solution that enables anyone (with the right knowledge) to easily and cost-effectively deploy and run a Harmony validator node (or many) and access the growing staking ecosystem of Harmony's Blockchain. 
 
 - With the ThreeFold P2P Cloud and its developer tools - 3Bot admin panel, the ThreeFold SDK - Harmony empowers its expanding community with 1-click validator node deployments, directly from the web or from a local machine

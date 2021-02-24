@@ -8,7 +8,8 @@ image: ./img/virtual_spaces.png
 # Virtual Spaces
 
 ![](./img/hubs.png)
-
+<br/>
+<br/>
 ThreeFold Foundation expects that with global conditions, online collaboration in virtual spaces will continue to increase in popularity, and tools to create interesting virtual spaces will help to inspire us to enjoy virtual meetup experiences, to collaborate, and to co-create.
 
 ## Open Source Solution: Mozilla Hubs

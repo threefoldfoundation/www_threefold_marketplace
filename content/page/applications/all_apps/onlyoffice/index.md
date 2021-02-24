@@ -7,7 +7,7 @@ image: ./img/onlyoffice.png
 
 # Office Tools
 
-![](./img/onlyoffice.png)
+![](./img/onlyoffice_header.jpg)
 
 If you've used a computer for school or for work, you have surely used one of the Office Application suites out there, most likely from Microsoft or Google. So we needed a peer-to-peer alternative.
 

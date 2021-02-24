@@ -8,6 +8,7 @@ image: ./img/video_chat.png
 # Video Chat
 
 ![](./img/connect.png)
+<br/>
 
 *You can access the Video Chat solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/meetings). Please note that the marketplace is currently running on testnet.*
 
@@ -22,14 +23,18 @@ Online services that provided end user-friendly video conferencing solutions are
 ## Example of the current solution
 
 This examples is for two users of the Zoom service with a free account based in Salzburg and Vienna (both in Austria).
-
+<br/>
+<br/>
 ![](./img/zoom_traffic.png)
+<br/>
 
 ## How our solution works and what makes it different
 
 In an ideal world, two two users would connect directly. There is no need to make this connection go through any infrastructure that is not in line to make the connection, and this can be done by creating a so called peer-to-peer video conferencing solution.
-
+<br/>
+<br/>
 ![](./img/peer2peer_traffic.png)
+<br/>
 
 Such a peer-to-peer video conferencing solution has been created and exists on the ThreeFold Grid and within the ThreeFold Now marketplace.  It has been designed and built by the ThreeFold Tech team and will have a one-click deployment option.  
 

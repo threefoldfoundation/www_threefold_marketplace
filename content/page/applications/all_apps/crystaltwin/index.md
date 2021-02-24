@@ -8,7 +8,8 @@ image: ./img/crystaltwin.png
 # Crystal Twin
 *Your personal Digital Avatar*
 
-![](./img/crystaltwin.png)
+![](./img/ct_landing.jpg)
+<br/>
 
 ## What is happening today?
 

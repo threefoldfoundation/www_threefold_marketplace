@@ -22,8 +22,6 @@ Powering the distributed cloud infrastructure for Tomochain's blockchain develop
 
 ## TomoChain and ThreeFold
 
-![](./img/tomo2.png)
-
 TomoChain and ThreeFold joined forces to solve a major problem for web3 developers and node operators looking into building decentralized applications on top of The TomoChain Blockchain, which is IT automation and decentralization.
 
 - ThreeFold provides TomoChain's community of Masternode owners, dapp developers, and TomoDEX developers with an autonomous workload execution through its native Smart Contracts for IT and Blockchain Database, while simplifying the process of running a TomoChain Masternode process through its efficient containerization and deployment mechanism. 

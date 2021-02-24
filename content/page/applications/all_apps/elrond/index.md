@@ -7,7 +7,7 @@ image: ./img/elrond.png
 
 # Elrond
 
-![](./img/elrond1.jpg)
+![](./img/elrond_header.png)
 
 ## Joint Mission
 
@@ -21,8 +21,6 @@ Enabling 1-Click deployment solutions for Elrond's staking ecosystem!
 - Thus, Elrond can process upwards of 10,000 transactions per second (TPS), with 5-second latency, and negligible cost, attempting to become the backbone of a permissionless, borderless, globally accessible internet economy.
 
 ## Elrond and ThreeFold
-
-![](./img/elrond2.png)
 
 By leveraging the ThreeFold P2P Cloud/ 3Bot and its efficient workload deployment mechanism, Elrond and its community of node operators have the power to easily deploy and run their validator nodes on top of a decentralized cloud infrastructure, directly from the web, and only in a few steps. 
 
