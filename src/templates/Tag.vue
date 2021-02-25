@@ -6,7 +6,7 @@
       :selected="title"
       v-if="tagTitles.length > 2"
     />
-    <div class="container sm:px-0 mx-auto overflow-x-hidden pt-12">
+    <div class="container mx-auto overflow-x-hidden pt-12">
       <div class="mx-4 sm:mx-0">
         <h1 class="pb-0 mb-0 text-5xl font-medium capitalize">
           {{ tags.title.replace("_", " ") }}
@@ -20,7 +20,7 @@
 
       <!-- <div class="pt-8 border-b"></div> -->
 
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-4 pt-8 pb-8 mx-3">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-4 pt-8 pb-8 mx-2">
         <PostListItem
           v-for="edge in tags.belongsTo.edges"
           :key="edge.node.id"

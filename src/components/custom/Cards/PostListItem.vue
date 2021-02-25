@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-post px-0 sm:px-4 pb-8 mb-8"
+    class="flex flex-post px-0 pb-8 mb-8"
     v-bind:class="{ 'no-border': !border }"
   >
     <g-link :to="path" class="post-card-image-link">
