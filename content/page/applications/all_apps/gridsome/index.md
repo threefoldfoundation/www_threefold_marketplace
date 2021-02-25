@@ -7,7 +7,7 @@ image: ./img/gridsome.png
 
 # Modern Site Generator
 
-*Note: This page is being worked on and will be expanded.*
+_Note: This page is being worked on and will be expanded._
 
 ![](./img/gridsome3.png)
 
@@ -17,7 +17,7 @@ image: ./img/gridsome.png
 
 ## How does it work?
 
-More info on https://gridsome.org/.
+More info on [Gridsome](https://gridsome.org/)
 
 ## Why use Gridsome?
 

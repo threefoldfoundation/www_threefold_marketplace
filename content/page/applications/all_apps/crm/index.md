@@ -31,7 +31,8 @@ And provides the safety and security you are looking for when it comes to your c
 ![](./img/orocrm_screenshot1.png)
 <br/>
 <br/>
-> This software is supported & created by https://oroinc.com/ <BR>
+
+> This software is supported & created by [Oroinc](https://oroinc.com/) <BR>
 > Please contact them for any support or commercial license.
 
 ## Tutorial: How to Deploy
@@ -49,7 +50,7 @@ Coming soon – the CRM solution is not yet available on the marketplace.
   - Vienna
 - [ ] Select a name
   - Name as used for the solution (in the web UI)
-- [ ] Choose a domain name 
+- [ ] Choose a domain name
   - ava.tf
   - 3x0.me
   - refit.earth

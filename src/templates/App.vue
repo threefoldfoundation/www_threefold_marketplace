@@ -18,3 +18,10 @@
       }
     }
 </page-query>
+
+<style>
+.post-content-text a {
+  color: #2c5282 !important;
+  font-weight: bold;
+}
+</style>

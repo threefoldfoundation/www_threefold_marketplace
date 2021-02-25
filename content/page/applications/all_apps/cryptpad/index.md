@@ -9,7 +9,7 @@ image: ./img/cryptpad.png
 
 ![](./img/what_is_cryptpad.png)
 
-*You can access the Collaborative Docs solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/cryptpad). Please note that the marketplace is currently running on testnet.*
+_You can access the Collaborative Docs solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/cryptpad). Please note that the marketplace is currently running on testnet._
 
 Collaborating on documents in real-time is incredible important in today's world. So this solution was a no-brainer.
 
@@ -22,11 +22,11 @@ Many alternatives are available to the the dominant doc collaboration tools from
 - It has most of the same crucial functionalities you would be used to with existing tools.
 - More importantly, all the content stored on CryptPad is encrypted before being sent, which means nobody can access your data unless you give them the keys (not even us).
 - Encryption happens in the browser that is used to access the "pads" – and therefore the central storage facility used does not see un-encrypted data and only sees encrypted data passing by.
-<br/>
-<br/>
-![](./img/cryptpad0.png)
-<br/>
-The ThreeFold team uses it for internal documents and collaboration, and now so can end-users on the ThreeFold Grid. The functionality includes:
+  <br/>
+  <br/>
+  ![](./img/cryptpad0.png)
+  <br/>
+  The ThreeFold team uses it for internal documents and collaboration, and now so can end-users on the ThreeFold Grid. The functionality includes:
 
 ## A rich text editor
 
@@ -69,4 +69,4 @@ This is an alternative to Word and Google Docs. It allows you to create document
 - Once you enter this information, all you need to do is wait for the solution to deploy. You can keep an eye on the screen for progress.
 - Upon completion, you'll see a link to view your solution live and it will remain live in your My Workloads section for three hours.
 
-**Support CryptPad at https://cryptpad.fr/index.html.**
+**Support CryptPad [here](https://cryptpad.fr/index.html).**

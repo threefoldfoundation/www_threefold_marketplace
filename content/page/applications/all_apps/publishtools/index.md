@@ -10,12 +10,12 @@ image: ./img/publishtools.png
 ![](./img/website_browser.png)
 <br/>
 
-*Note: In the [ThreeFold Now Marketplace](https://marketplace.threefold.io), you will see separate widgets for Website, Blog, & Wiki.*
+_Note: In the [ThreeFold Now Marketplace](https://marketplace.threefold.io), you will see separate widgets for Website, Blog, & Wiki._
 
-- *You can access Website Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/website).*
-- *You can access Blog Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/blog).*
-- *You can access Wiki Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/wiki).*
--  *Please note that the marketplace is currently running on testnet.*
+- _You can access Website Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/website)._
+- _You can access Blog Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/blog)._
+- _You can access Wiki Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/wiki)._
+- _Please note that the marketplace is currently running on testnet._
 
 For website (or blog or wiki) creation and management, there are may options available in the market. From total end-to-end solutions like Squarespace to do-it-yourself (and select the tools and software to run your website). ThreeFold has created publishing tools that allow for deployment and management with version control, automatic update, and staging facilities.
 
@@ -36,7 +36,7 @@ Note that building and deploying a website using these tools does require more t
 
 ## Tutorial: How to Deploy
 
-*Please note that in order to deploy a website, blog, or wiki using these tools you'll need some technical knowledge of Git.*
+_Please note that in order to deploy a website, blog, or wiki using these tools you'll need some technical knowledge of Git._
 
 - First, visit [the marketplace](https://marketplace.threefold.io/) and find the Website, Blog, or Wiki Publisher solution
 - You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
@@ -52,21 +52,20 @@ Note that building and deploying a website using these tools does require more t
 
 ## Repository Examples
 
-- Website: https://github.com/xmonader/www_incubaid
-- Blog: https://github.com/threefoldfoundation/www_tfblog
-- Wiki: https://github.com/threefoldfoundation/info_gridmanual
+- Website: [Incubaid](https://github.com/xmonader/www_incubaid)
+- Blog: [TF-Blog](https://github.com/threefoldfoundation/www_tfblog)
+- Wiki: [Grid Manual](https://github.com/threefoldfoundation/info_gridmanual)
 - [Repository Structure Info](https://github.com/crystaluniverse/publishingtools/blob/development/docs/repo_layout.md)
 
 ## Live Examples
 
-- Website: https://www.threefold.io/
-- Blog: https://blog.threefold.io/
-- Wiki: https://info.threefold.io
+- Website: [ThreeFold](https://www.threefold.io/)
+- Blog: [ThreeFold Blog](https://blog.threefold.io/)
+- Wiki: [ThreeFold Wiki](https://info.threefold.io)
 
 ![](./img/blog_browser_1.png)
 
-
-<!-- 
+<!--
 ### Deploy
 
 create widget which does following,
