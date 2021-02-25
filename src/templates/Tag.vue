@@ -20,7 +20,7 @@
 
       <!-- <div class="pt-8 border-b"></div> -->
 
-      <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-4 pt-8 pb-8 mx-3">
         <PostListItem
           v-for="edge in tags.belongsTo.edges"
           :key="edge.node.id"
