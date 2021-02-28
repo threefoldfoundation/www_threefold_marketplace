@@ -50,7 +50,7 @@
         :sections="$page.markdownPage.comparisonSecs"
       />
 
-      <ShowcaseProducts
+      <ShowcaseProductsAbout
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
         v-if="
@@ -270,7 +270,7 @@ import VerticalNav from "~/components/custom/Navbar/VerticalNav.vue";
 import GetInTouch from "~/components/custom/Navbar/Getintouch.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import HowItWorks from "~/components/custom/sections/HowItWorks.vue";
-import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
+import ShowcaseProductsAbout from "~/components/marketing/sections/cta-sections/ShowcaseProductsAbout.vue";
 import Features from "~/components/custom/sections/Features.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
@@ -289,7 +289,7 @@ export default {
     GetInTouch,
     SolutionsHeader,
     HowItWorks,
-    ShowcaseProducts,
+    ShowcaseProductsAbout,
     Features,
     logoShowcase,
     CallToAction,

@@ -7,7 +7,7 @@
     />
 
     <ShowcaseProducts
-      :main="$page.markdownPage.productsMain"
+      :main="$page.markdownPage.appsMain"
       :products="$page.markdownPage.apps"
       v-if="$page.markdownPage.apps && $page.markdownPage.apps.length > 0"
     />
@@ -42,7 +42,7 @@
           button
           link
         }
-        productsMain{
+        appsMain{
           id
           title
           subtitle

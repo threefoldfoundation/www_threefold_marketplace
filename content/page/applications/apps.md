@@ -1,6 +1,6 @@
 ---
 id: applications
-productsMain: apps_list
+appsMain: apps_list
 apps: [
     blog_publisher,
     bookstack,

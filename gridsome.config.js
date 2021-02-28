@@ -209,8 +209,7 @@ module.exports = {
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
                     allSlides: 'About',
-                    productsMain: 'AppsMain',
-                    productData: 'Applications',
+                    appsMain: 'AppsMain',
                     apps: 'Applications'
                 }
             }
