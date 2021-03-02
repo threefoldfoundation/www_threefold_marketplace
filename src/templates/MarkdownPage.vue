@@ -13,6 +13,11 @@
         :excerpt="$page.markdownPage.header_excerpt"
       />
 
+      <SignUp
+        v-if="$page.markdownPage.signup"
+        :signup="$page.markdownPage.signup"
+      />
+
       <!-- <VerticalNav
         :slides="$page.markdownPage.slides"
         v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
@@ -94,11 +99,6 @@
         v-if="$page.markdownPage.solution_image"
         :src="$page.markdownPage.solution_image.src"
       />
-
-      <!-- <SignUp
-        v-if="$page.markdownPage.signup"
-        :signup="$page.markdownPage.signup"
-      /> -->
 
       <!-- <GetInTouch
         :contacts="$page.markdownPage.contactData"

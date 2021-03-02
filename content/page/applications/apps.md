@@ -1,5 +1,6 @@
 ---
 id: applications
+signup: app_cta
 appsMain: apps_list
 apps: [
     blog_publisher,
