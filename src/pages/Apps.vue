@@ -1,10 +1,10 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <CallToAction
-      v-if="$page.markdownPage.signup"
-      :cta="$page.markdownPage.signup"
+    <SignUp
+        v-if="$page.markdownPage.signup"
+        :signup="$page.markdownPage.signup"
     />
-
+    
     <TagFilterHeader
       :tags="appsTag"
       selected="all"
@@ -17,7 +17,10 @@
       v-if="$page.markdownPage.apps && $page.markdownPage.apps.length > 0"
     />
 
-    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
+    <CallToAction 
+      v-if="$page.markdownPage.cta" 
+      :cta="$page.markdownPage.cta" 
+    />
   </Layout>
 </template>
 
@@ -47,13 +50,6 @@
           button
           link
         }
-        signup{
-          id
-          title
-          content
-          button
-          link
-        }
         appsMain{
           id
           title
@@ -65,6 +61,14 @@
          title
          image
        }
+        signup{
+          id
+          title
+          button1
+          link1
+          button2
+          link2
+        }
     }
   topics: allAppsTag{
     edges{
@@ -80,6 +84,7 @@
 </page-query>
 
 <script>
+import SignUp from "~/components/custom/sections/SignUp.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
@@ -87,6 +92,7 @@ import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
 export default {
   components: {
     CallToAction,
+    SignUp,
     ShowcaseProducts,
     TagFilterHeader,
   },

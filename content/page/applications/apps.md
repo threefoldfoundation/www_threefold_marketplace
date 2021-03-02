@@ -1,6 +1,6 @@
 ---
 id: applications
-signup: app_signup
+signup: testing_signup
 appsMain: apps_list
 apps: [
     blog_publisher,
@@ -33,5 +33,5 @@ apps: [
     wiki_publisher,
     zeroci,
     ]
-cta: apps_cta
+cta: contact_us
 ---

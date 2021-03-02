@@ -1,5 +1,5 @@
 ---
-id: apps_cta
+id: contact_us
 title: CAN'T FIND THE PERFECT APP?
 button: CONTACT US
 link: 'mailto:info@threefold.io' #Add button link here
