@@ -1,5 +1,10 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
+    <CallToAction
+      v-if="$page.markdownPage.signup"
+      :cta="$page.markdownPage.signup"
+    />
+
     <TagFilterHeader
       :tags="appsTag"
       selected="all"
@@ -36,6 +41,13 @@
           content
         }
         cta{
+          id
+          title
+          content
+          button
+          link
+        }
+        signup{
           id
           title
           content
