@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-    siteName: 'Threefold Webstack',
+    siteName: 'ThreeFold Marketplace',
     plugins: [
 
         // Local models
@@ -160,7 +160,22 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
-                typeName: 'Apps',
+                typeName: 'AppsMain',
+                path: './content/page/**/all_apps/main/*.md',
+            }
+        },
+
+        // {
+        //     use: '@gridsome/source-filesystem',
+        //     options: {
+        //         typeName: 'AppsShowCase',
+        //         path: './content/page/**/productData/**/*.md',
+        //     }
+        // },
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
+                typeName: 'Applications',
                 path: './content/page/**/all_apps/**/*.md',
             }
         },
@@ -194,7 +209,8 @@ module.exports = {
                     inTheNews: 'InTheNews',
                     brandPanel: 'BrandPanel',
                     allSlides: 'About',
-                    apps: 'Apps'
+                    appsMain: 'AppsMain',
+                    apps: 'Applications'
                 }
             }
         },
@@ -256,6 +272,24 @@ module.exports = {
 
                 }
             }
+        },
+
+        {
+            use: "@gridsome/source-filesystem",
+            options: {
+                typeName: "App",
+                path: './content/page/applications/all_apps/**/*.md',
+                templates: {
+                    App: '/apps/:id'
+                },
+                refs: {
+                    // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+                    tags: {
+                        typeName: "AppsTag",
+                        create: true,
+                    },
+                },
+            },
         },
 
         {
@@ -396,11 +430,15 @@ module.exports = {
             component: '~/templates/Person.vue'
         }],
 
-        Apps: [{
+        App: [{
             path: '/apps/:id',
-            component: '~/templates/Apps.vue'
+            component: '~/templates/App.vue'
         }],
 
+        AppsTag: [{
+            path: '/apps/tags/:id',
+            component: '~/templates/Tag.vue'
+        }],
 
         PersonTag: [{
             path: '/team/tags/:id',

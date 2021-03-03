@@ -4,7 +4,7 @@
       {{ main.title }}
     </h2>
     <p class="text-gray-600">{{ main.description }}</p>
-    <div class="flex flex-wrap items-center mx-8 mt-12 mb-2">
+    <div class="flex flex-wrap items-center mx-8 mt-12 mb-16">
       <div
         class="lg:w-1/3 px-6 mb-2"
         v-for="(section, index) in sections"

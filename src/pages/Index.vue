@@ -145,13 +145,13 @@ export default {
     InTheNews,
     SignUp,
   },
-  metaInfo() {
-    return {
-      title: this.$page.markdownPage.title,
-    };
+  metaInfo: {
+    title: "",
+    titleTemplate: "ThreeFold Marketplace",
+ 
   },
-  // mounted() {
-  //   console.log(this.$page.markdownPage.apps);
-  // },
+  mounted() {
+    console.log(this.$page.markdownPage.comparisonSecs);
+  },
 };
 </script>

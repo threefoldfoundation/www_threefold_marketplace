@@ -1,0 +1,114 @@
+<template>
+  <Layout :hideHeader="true" :disableScroll="true">
+    <SignUp
+        v-if="$page.markdownPage.signup"
+        :signup="$page.markdownPage.signup"
+    />
+    
+    <TagFilterHeader
+      :tags="appsTag"
+      selected="all"
+      v-if="$page.topics.edges.length > 1"
+    />
+
+    <ShowcaseProducts
+      :main="$page.markdownPage.appsMain"
+      :products="$page.markdownPage.apps"
+      v-if="$page.markdownPage.apps && $page.markdownPage.apps.length > 0"
+    />
+
+    <CallToAction 
+      v-if="$page.markdownPage.cta" 
+      :cta="$page.markdownPage.cta" 
+    />
+  </Layout>
+</template>
+
+<page-query>
+  query {
+    markdownPage(id: "applications") {
+        id
+        path
+        comparisonMain{
+          id
+          title
+          description
+          button
+          link
+        }
+        comparisonSecs{
+          id
+          app_id
+          img
+          title
+          content
+        }
+        cta{
+          id
+          title
+          content
+          button
+          link
+        }
+        appsMain{
+          id
+          title
+          subtitle
+          #image
+        }
+        apps{
+         id
+         title
+         image
+       }
+        signup{
+          id
+          title
+          button1
+          link1
+          button2
+          link2
+        }
+    }
+  topics: allAppsTag{
+    edges{
+      node{
+        id
+        title
+        path        
+      }
+    }
+  }
+}
+
+</page-query>
+
+<script>
+import SignUp from "~/components/custom/sections/SignUp.vue";
+import CallToAction from "~/components/custom/sections/CallToAction.vue";
+import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
+import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
+
+export default {
+  components: {
+    CallToAction,
+    SignUp,
+    ShowcaseProducts,
+    TagFilterHeader,
+  },
+  metaInfo() {
+    return {
+      title: "Apps",
+    };
+  },
+  computed: {
+    appsTag() {
+      var res = [{ title: "All", path: "/apps" }];
+      this.$page.topics.edges.forEach((edge) =>
+        res.push({ title: edge.node.title, path: edge.node.path })
+      );
+      return res;
+    },
+  },
+};
+</script>
