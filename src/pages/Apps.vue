@@ -5,6 +5,11 @@
         :signup="$page.markdownPage.signup"
     />
     
+    <SolutionsHeader
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
+    />
+    
     <TagFilterHeader
       :tags="appsTag"
       selected="all"
@@ -36,6 +41,15 @@
           button
           link
         }
+        header{
+         title
+         subtitle
+         content
+         btn1
+         link1
+         btn2
+         link2
+       }
         comparisonSecs{
           id
           app_id
@@ -85,6 +99,7 @@
 
 <script>
 import SignUp from "~/components/custom/sections/SignUp.vue";
+import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import ShowcaseProducts from "~/components/marketing/sections/cta-sections/ShowcaseProducts.vue";
 import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
@@ -93,6 +108,7 @@ export default {
   components: {
     CallToAction,
     SignUp,
+    SolutionsHeader,
     ShowcaseProducts,
     TagFilterHeader,
   },
