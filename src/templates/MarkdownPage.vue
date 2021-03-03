@@ -23,10 +23,10 @@
         v-if="$page.markdownPage.slides && $page.markdownPage.slides.length > 0"
       /> -->
 
-      <!-- <SolutionsHeader
+      <SolutionsHeader
         v-if="$page.markdownPage.header"
         :header="$page.markdownPage.header"
-      /> -->
+      />
 
       <!-- <NewCard
         v-for="card in $page.markdownPage.cards"

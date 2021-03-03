@@ -1,7 +1,8 @@
 ---
 id: applications
 signup: testing_signup
-appsMain: apps_list
+header: apps_header
+appsMain: ''
 apps: [
     blog_publisher,
     bookstack,

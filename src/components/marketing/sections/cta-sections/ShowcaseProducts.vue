@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 mb-5">
+  <div class="py-2 mb-5">
     <div class="w-full text-center">
       <p v-if="main !== null" class="text-sm tracking-widest text-gray-700">
         {{ main.subtitle }}
