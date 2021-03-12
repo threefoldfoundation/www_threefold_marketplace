@@ -1,7 +1,7 @@
 ---
 id: gridsome
 title: gridsome
-tags: [decentralized_we]
+tags: [decentralized_developer]
 image: ./img/gridsome.png
 ---
 
