@@ -13,7 +13,6 @@ apps: [
     commento,
     crm,
     cryptpad,
-    crystaltwin,
     discourse,
     elrond,
     file_browser,
