@@ -1,7 +1,7 @@
 ---
 id: bookstack
 title: bookstack
-tags: [decentralized_community]
+tags: [decentralized_we]
 image : ./img/bookstack.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: publishtools
 title: publishtools
-tags: [decentralized_community]
+tags: [decentralized_we]
 image: ./img/publishtools.png
 ---
 

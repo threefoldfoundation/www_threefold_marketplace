@@ -1,7 +1,7 @@
 ---
 id: blog_publisher
 title: blog publisher
-tags: [decentralized_community]
+tags: [decentralized_we]
 image: ./img/blog_publisher.png
 ---
 
