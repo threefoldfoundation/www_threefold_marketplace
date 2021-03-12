@@ -1,7 +1,7 @@
 ---
 id: crystaltwin
 title: Crystal Twin
-tags: [decentralized_we]
+tags: []
 image: ./img/crystaltwin.png
 ---
 
