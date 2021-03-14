@@ -1,7 +1,7 @@
 ---
 id: commento
 title: commento
-tags: [decentralized_community]
+tags: [decentralized_we]
 image : ./img/commento.png
 ---
 

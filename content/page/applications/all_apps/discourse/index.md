@@ -1,7 +1,7 @@
 ---
 id: discourse
 title: discourse
-tags: [decentralized_office]
+tags: [decentralized_we]
 image: ./img/discourse.png
 ---
 
