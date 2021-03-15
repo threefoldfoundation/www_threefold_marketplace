@@ -5,11 +5,10 @@ tags: [decentralized_office]
 image: ./img/taiga.png
 ---
 
-# Project Management
+# Project Management (Taiga)
 
 ![](./img/taiga_frontpage.png)
-
-*You can access the Project Management solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/taiga). Please note that the marketplace is currently running on testnet.*
+<br/>
 
 Our world is moving towards remote working, and with that comes many challenges – one of them being project management of remote teams. Therefore, it was super important to us to present this type of a solution in our marketplace.
 
@@ -30,6 +29,8 @@ Our world is moving towards remote working, and with that comes many challenges 
 ## Want to learn more about Agile? 
 
 A new methodology has been developed to do exactly the same as traditional waterfall project management but allows for changes to happen in the process. Pioneered by the software industry but adopted by many other industries today is the **Agile** development methodology to organize and run projects. Agile promotes agility in running a project and lives by the following principles:
+<br/>
+<br/>
 
 - **Individuals and interactions** over processes and tools
 - **Working solutions** over comprehensive documentation
@@ -38,7 +39,7 @@ A new methodology has been developed to do exactly the same as traditional water
 
 ## Tutorial: How to Deploy
 
-- First, visit [the Project Management solution](https://marketplace.threefold.io/marketplace/#/solutions/taiga) live on the marketplace
+- First, visit the Project Management solution live on the marketplace
 - You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
 - Next you'll be asked to enter an email address, your SMTP information, and a password
     - For testing purposes please note you do not have to include real information

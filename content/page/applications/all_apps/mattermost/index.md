@@ -5,12 +5,10 @@ tags: [decentralized_office]
 image: ./img/mattermost.png
 ---
 
-# Team Collaboration
+# Team Collaboration (Mattermost)
 
 ![](./img/mattermost_header.png)
 <br/>
-
-*You can access the Team Collaboration solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/mattermost). Please note that the marketplace is currently running on testnet.*
 
 With the world moving more and more into remote working, the team collaboration platforms are becoming highly-important. There are some well-known tools out there but they come with the downfalls of many centralized solutions – lack of security and privacy, and operating in closed source environments.
 
@@ -21,8 +19,12 @@ With the world moving more and more into remote working, the team collaboration 
 ## Why use Mattermost?
 
 Remote team collaboration is growing in importance these days and while other solutions exist (e.g. Slack), we recommend using this open source and secure alternative on top of the ThreeFold Grid.
+<br/>
+<br/>
 
 It brings the all the communication features you need, including:
+<br/>
+<br/>
 
  - Organized conversations in teams and channels
  - Fully searchable message history
@@ -31,15 +33,23 @@ It brings the all the communication features you need, including:
  - File, image, and link sharing
  - Emoji and rich Markdown formatting
  - Multi-language support
+<br/>
+<br/>
 
 And has important integrated tools like:
+<br/>
+<br/>
 
  - DevOps integration set
  - Incoming and outgoing webhooks
  - Custom slash commands
  - Robust API library
+<br/>
+<br/>
 
 Basically, you won't lose out on [the key functionalities](https://mattermost.com/product/) you might be used to with other alternative and you **gain** privacy and security.
+<br/>
+<br/>
 
 Bonus! Mattermost has integration features with [Discourse](https://www.discourse.org/), which is also part of the ThreeFold Now suite.
 

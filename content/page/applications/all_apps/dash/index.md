@@ -16,6 +16,8 @@ Giving Dash Full node and Masternode operators extra IT superpowers!
 ## About Dash 
 
 **[Dash](https://www.dash.org/)** is an open source peer-to-peer cryptocurrency with a strong focus on the payments industry.
+<br/>
+<br/>
 
 - Dash offers a form of money that is portable, inexpensive, divisible and fast.
 - It can be spent securely both online and in-person with only minimal transaction fees.
@@ -26,6 +28,8 @@ Giving Dash Full node and Masternode operators extra IT superpowers!
 ## Dash and ThreeFold
 
 Dash  has established itself as a leader in the digital currency and Blockchain space with their advanced payment mechanism and highly-efficient governance model.
+<br/>
+<br/>
 
 - With ThreeFold, Dash and its community of Full node and Masternode operators have access to the world's largest P2P cloud capacity.
 - With that, they have the ability to easily run Dash nodes at scale and further distribute the network all over the globe, bringing even greater decentralization and data privacy to its DAO infrastructure.
@@ -35,6 +39,4 @@ Dash  has established itself as a leader in the digital currency and Blockchain
 
 ## Get started with Dash
 
-**Coming soon:** You will be able to soon deploy Dash Full nodes and Master nodes via the **ThreeFold Now Marketplace**'s dashboard, in just a few clicks.
-
-Stay tuned at **[Threefold Now Marketplace](https://marketplace.threefold.io)**.
+**Coming soon:** You will be able to soon deploy Dash Full nodes and Master nodes via the **ThreeFold Marketplace**'s dashboard, in just a few clicks. Stay tuned!

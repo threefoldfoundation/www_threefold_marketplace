@@ -16,6 +16,8 @@ Serving Harmony and its validator node community with 1-Click deployments and cl
 ## About Harmony
 
 **[Harmony](https://harmony.one/)** is a fast and open blockchain for decentralized applications.
+<br/>
+<br/>
 
 - Its protocol has achieved secure and random state sharding, being the first sharded Proof of Stake on production.
 - Harmony's Mainnet supports thousands of nodes in multiple shards, producing blocks in a few seconds with instant finality.
@@ -25,7 +27,9 @@ Serving Harmony and its validator node community with 1-Click deployments and cl
 
 ## Harmony and ThreeFold
 
-Harmony.one and ThreeFold joined forces to provide a performant, decentralized and customizable solution that enables anyone (with the right knowledge) to easily and cost-effectively deploy and run a Harmony validator node (or many) and access the growing staking ecosystem of Harmony's Blockchain. 
+Harmony.one and ThreeFold joined forces to provide a performant, decentralized and customizable solution that enables anyone (with the right knowledge) to easily and cost-effectively deploy and run a Harmony validator node (or many) and access the growing staking ecosystem of Harmony's Blockchain.
+<br/>
+<br/>
 
 - With the ThreeFold P2P Cloud and its developer tools - 3Bot admin panel, the ThreeFold SDK - Harmony empowers its expanding community with 1-click validator node deployments, directly from the web or from a local machine
 - This gives its node operators control over their containerized validator nodes, and a more efficient way to spin them up on a decentralized IT infrastructure. 
@@ -35,5 +39,7 @@ Harmony.one and ThreeFold joined forces to provide a performant, decentralized a
 ## Get started with Harmony
 
 Learn how to deploy Harmony validator nodes in a few clicks with this **[Harmony Tutorial](https://forum.threefold.io/t/setting-up-a-harmony-node-on-the-threefold-grid/476).**
+<br/>
+<br/>
 
 For more info, reach out to us on **[ThreeFold Forum](https://forum.threefold.io/).**

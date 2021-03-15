@@ -8,7 +8,6 @@ image: ./img/digibyte.png
 # DigiByte
 
 ![](./img/digibyte_header.png)
-<br/>
 
 ## Joint Mission
 
@@ -17,6 +16,8 @@ Decentralizing and optimizing IT for the DigiByte node ecosystem!
 ## About DigiByte
 
 **[DigiByte](https://digibyte.io/)** is a rapidly-growing open-source blockchain created in late 2013 and released in early 2014.
+<br/>
+<br/>
 
 - After 6 years of forward-thinking development, DigiByte has become one of the safest, fastest, longest and most decentralized UTXO blockchains in existence with one of the most active communities in the Crypto and Blockchain space.
 - The DigiByte Foundation is a volunteer-managed organization that operates as a non-profit.
@@ -25,6 +26,8 @@ Decentralizing and optimizing IT for the DigiByte node ecosystem!
 ## DigiByte and ThreeFold
 
 Through our partnership with the DigiByte Foundation, we empower the DGB community with a decentralized cloud infrastructure to deploy DigiByte nodes and help secure and expand the DGB network across the geographical edges. 
+<br/>
+<br/>
 
 - Anyone can contribute and build upon the DigiByte Blockchain using the ThreeFold P2P cloud and its developer tools that provide significant advantages over centralized cloud providers.
 - Thousands of people are running DigiByte software all across the planet.
@@ -32,6 +35,4 @@ Through our partnership with the DigiByte Foundation, we empower the DGB communi
 
 ## Get Started 
 
-**Coming soon:** You will be able to soon deploy your own DigiByte full Node via the **ThreeFold Now Marketplace**'s dashboard in a few clicks.
-
-Stay tuned at **[Threefold Now Marketplace](https://marketplace.threefold.io)**.
+**Coming soon:** You will be able to soon deploy your own DigiByte full Node via the **ThreeFold Marketplace**'s dashboard in a few clicks. Stay tuned!

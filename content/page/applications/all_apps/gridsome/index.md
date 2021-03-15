@@ -27,13 +27,11 @@ More info on [Gridsome](https://gridsome.org/)
 
 - Directly deploy on TF Grid
 - Build & test before deploy
+<br/>
+<br/>
 
 More coming ...
 
 ## Tutorial: How to Deploy
 
 Coming soon – the Modern Site Generator solution is not yet available on the marketplace.
-
-## FAQs
-
-Coming ...

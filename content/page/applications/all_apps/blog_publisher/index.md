@@ -11,15 +11,19 @@ image: ./img/blog_publisher.png
 
 ## How does it work?
 
-For blog creation and management there are may options available in the market. From total end-to-end solutions like Squarespace to do-it-yourself and select the tools and software to run your blog. ThreeFold has created a tool that allows for deployment and blog management with version control, automatic update, and staging facilities.
+For blog creation and management there are may options available in the market. From total end-to-end solutions like Squarespace, to doing-it-yourself and selecting the tools and software to run your blog. ThreeFold has created a tool that allows for deployment and blog management with version control, automatic update, and staging facilities.
+<br/>
+<br/>
 
 ![](./img/blog_capture.png)
+<br/>
 
 ## What do you need to do?
 
-The basic principle is that you create the content in the repository (html, markdown and other) and store it in a repository.  Content creation can be done with any tools that you have experience with (or like). The only requirement is that you store the content in a public repository. This repository can be anything that stores code and provides version controlling. For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The actual deployment of the webserver infrastructure and all required domain name setup for the blog to be publicly available is done in the one-click (and three question) deployment.
-
-See: [ThreeFold Blog](https://blog.threefold.io/) as an example.
+The basic principle is that you create the content in the repository (html, markdown and other) and store it in a repository. Content creation can be done with any tools that you have experience with (or like). The only requirement is that you store the content in a public repository. This repository can be anything that stores code and provides version controlling. For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The actual deployment of the webserver infrastructure and all required domain name setup for the blog to be publicly available is done in the one-click (and three question) deployment.
+<br/>
+<br/>
+See: [ThreeFold Farming Blog](https://farming.threefold.io/blog) as an example.
 <!-- 
 ### Deploy
 

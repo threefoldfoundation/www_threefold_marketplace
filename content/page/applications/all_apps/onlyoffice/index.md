@@ -5,9 +5,10 @@ tags: [decentralized_office]
 image: ./img/onlyoffice.png
 ---
 
-# Office Tools
+# Document Server (OnlyOffice)
 
 ![](./img/onlyoffice_header.jpg)
+<br/>
 
 If you've used a computer for school or for work, you have surely used one of the Office Application suites out there, most likely from Microsoft or Google. So we needed a peer-to-peer alternative.
 
@@ -18,6 +19,8 @@ If you've used a computer for school or for work, you have surely used one of th
 ## Why OnlyOffice?
 
 OnlyOffice is a private and secure alternative to the tools we use today. Beyond that:
+<br/>
+<br/>
 
 - Trusted by more than 7 million users worldwide and highly-rated by both critics and users
 - All your online collaboration and file storage needs are covered in one place
@@ -31,10 +34,6 @@ We will be integrating the File Browser solution as well so that you can store a
 ## Tutorial: How to Deploy
 
 Coming soon – the Office Tools solution is not yet available on the marketplace.
-
-## FAQs
-
-Coming soon ...
 
 <!---
 

@@ -5,9 +5,11 @@ tags: [decentralized_we]
 image : ./img/bookstack.png
 ---
 
-# BookStack Knowledge Base
+# Knowledge Base (BookStack)
 
 ![](./img/bookstackintro.png)
+
+<br/>
 
 While not everybody is in the business of creating wikis, it's important we have easy-to-use and beautiful-to-consume ways of creating and categorizing information. The applications for this are endless, and we see a lot of relevance for the education space.
 
@@ -18,6 +20,8 @@ While not everybody is in the business of creating wikis, it's important we have
 ## Why use BookStack?
 
 We really liked BookStack when we were looking around for a wiki publisher. It's simple but at the same time quite dynamic. Some of its key features include:
+<br/>
+<br/>
 
 - Free & Open Source
 - Easy, Simple Interface
@@ -27,8 +31,12 @@ We really liked BookStack when we were looking around for a wiki publisher. It's
 - Integrated Authentification
 - Optional Markdown Editor
 - & More
+<br/>
+<br/>
 
 You can learn more about these benefits and dig in to the platform on [the BookStack website](https://www.bookstackapp.com/).
+<br/>
+<br/>
 
 ![](./img/booksorting.png)
 

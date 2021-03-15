@@ -10,35 +10,34 @@ image: ./img/publishtools.png
 ![](./img/website_browser.png)
 <br/>
 
-_Note: In the [ThreeFold Now Marketplace](https://marketplace.threefold.io), you will see separate widgets for Website, Blog, & Wiki._
-
-- _You can access Website Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/website)._
-- _You can access Blog Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/blog)._
-- _You can access Wiki Publisher on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/wiki)._
-- _Please note that the marketplace is currently running on testnet._
-
 For website (or blog or wiki) creation and management, there are may options available in the market. From total end-to-end solutions like Squarespace to do-it-yourself (and select the tools and software to run your website). ThreeFold has created publishing tools that allow for deployment and management with version control, automatic update, and staging facilities.
 
 ## Why use these solutions?
 
 While the tools available in the market tend to make things quite easy, they come with disadvantaged.
+<br/>
+<br/>
 
 - Primarily, they run your website on centralized cloud solutions, which brings strong issues around privacy and security.
 - In addition, website builders generate closed source websites
   - This means you cannot access and export your work from these platforms easily
   - And you are stuck with the feature sets of these platforms until they decide to expand
   - Open source gives full control to website creators and full flexibility
+<br/>
+<br/>
 
 Note that building and deploying a website using these tools does require more technical know-how and obviously the ease of use of website builders is a huge draw. So, in the short term this is not for everybody, but we'll be optimizing this for the everyday person as we go.
+<br/>
 
 ![](./img/wiki_deployment_1.png)
-<br/>
 
 ## Tutorial: How to Deploy
 
 _Please note that in order to deploy a website, blog, or wiki using these tools you'll need some technical knowledge of Git._
+<br/>
+<br/>
 
-- First, visit [the marketplace](https://marketplace.threefold.io/) and find the Website, Blog, or Wiki Publisher solution
+- First, visit the marketplace and find the Website, Blog, or Wiki Publisher solution
 - You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
 - Then you'll need to add a title, repository URL, and branch
   - Title is the name of your website, blog, or wiki
@@ -62,6 +61,8 @@ _Please note that in order to deploy a website, blog, or wiki using these tools 
 - Website: [ThreeFold](https://www.threefold.io/)
 - Blog: [ThreeFold Blog](https://blog.threefold.io/)
 - Wiki: [ThreeFold Wiki](https://info.threefold.io)
+
+<br/>
 
 ![](./img/blog_browser_1.png)
 

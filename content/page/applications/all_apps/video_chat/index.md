@@ -10,8 +10,6 @@ image: ./img/video_chat.png
 ![](./img/connect.png)
 <br/>
 
-*You can access the Video Chat solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/meetings). Please note that the marketplace is currently running on testnet.*
-
 Online services that provided end user-friendly video conferencing solutions are in high demand, and many of the providers of such services have seen a tremendous increase in usage statistics. Using centralized services for video conferencing creates silos of users that can communicate because they use the same tool. And it allows the man in the middle – the video conferencing platform – to collect and market data captured by end user usage.
 
 ## How do other solutions work?
@@ -40,7 +38,7 @@ Such a peer-to-peer video conferencing solution has been created and exists on t
 
 ## Tutorial: How to Deploy
 
-- First, visit [the Video Chat solution](https://marketplace.threefold.io/marketplace/#/solutions/meetings) live on the marketplace
+- First, visit the Video Chat solution live on the marketplace
 - You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
 - Once you enter this information, all you need to do is wait for the solution to deploy. You can keep an eye on the screen for progress.
 - Upon completion, you'll see a link to view your solution live and it will remain live in your My Workloads section for three hours.

@@ -5,11 +5,10 @@ tags: [decentralized_we]
 image: ./img/peertube.png
 ---
 
-# Peertube Video Sharing
+# Peertube (Video Sharing)
 
 ![](./img/peertive_window.png)
-
-*You can access the Video Sharing solution on the ThreeFold Now Marketplace directly [here](https://marketplace.threefold.io/marketplace/#/solutions/peertube). Please note that the marketplace is currently running on testnet.*
+<br/>
 
 If you use the Internet, you are surely familiar with video sharing. Sites like YouTube and Vimeo are the biggest examples. They are highly-popular, particularly with the mass market for camera phones and smartphones increasing the supply of user-generated videos.
 
@@ -66,7 +65,7 @@ Unique characteristics of the platform:
 
 ## Tutorial: How to Deploy
 
-- First, visit [the Video Sharing solution](https://marketplace.threefold.io/marketplace/#/solutions/peertube) live on the marketplace
+- First, visit the PeerTube solution live on the marketplace
 - You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
 - Once you enter this information, all you need to do is wait for the solution to deploy. You can keep an eye on the screen for progress.
 - Upon completion, you'll see a link to view your solution live and it will remain live in your My Workloads section for three hours.
