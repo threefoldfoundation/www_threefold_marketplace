@@ -20,6 +20,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Card2',
+                path: './content/page/**/cards2/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'Slide',
                 path: './content/page/**/sliders/**/*.md',
             }
@@ -120,6 +128,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Comparison2',
+                path: './content/page/**/comparison2/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'Roadmap',
                 path: './content/page/**/roadmap/*.md',
             }
@@ -186,6 +202,7 @@ module.exports = {
                 path: './content/page/*/*.md',
                 refs: {
                     cards: 'Card',
+                    cards2: 'Card2',
                     slides: 'Slide',
                     contactData: 'Contact',
                     header: 'Header',
@@ -200,6 +217,8 @@ module.exports = {
                     signup: 'SignUp',
                     comparisonMain: 'Comparison',
                     comparisonSecs: 'Comparison',
+                    comparisonMain2: 'Comparison2',
+                    comparisonSecs2: 'Comparison2',
                     howItWorksMain_2: 'HowItWorks_2',
                     howItWorks_2: 'HowItWorks_2',
                     roadmap: 'Roadmap',

@@ -1,14 +1,8 @@
 ---
 id: about
-header_title: The Power of P2P
-header_image: ./about_header.png
-header_excerpt: Today, online privacy and security are badly compromised. Peer-to-Peer models empower communities with equality, sovereignty and resiliency.
+header_title: ''
+header_image: ''
+header_excerpt: ''
 button: ''
-link: '' #link for button
-comparisonMain: about_comparison
-comparisonSecs: [section1, section2, section3]
-productsMain: product
-productData: [product1, product2, product3, product4]
-cta: about_cta
-solution_image: ./about_map.png
+link: ''
 ---

@@ -1,5 +1,5 @@
 ---
-id: product3
+id: three
 title: ''
 image: ./deploy.png
 ---

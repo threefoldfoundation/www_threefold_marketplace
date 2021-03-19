@@ -1,5 +1,5 @@
 ---
-id: product1
+id: one
 title: ''
 image : ./choose.png
 ---

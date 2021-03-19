@@ -1,5 +1,5 @@
 ---
-id: product2
+id: two
 title: ''
 image: ./define.png
 ---

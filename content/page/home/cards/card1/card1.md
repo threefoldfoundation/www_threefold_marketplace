@@ -1,7 +1,7 @@
 ---
-id: home_card
+id: marketplace
 title: Building the most complete P2P Marketplace
-image: ./home_card.png
+image: ./marketplace.png
 button: ''
 link: '' #link for button
 order: 6

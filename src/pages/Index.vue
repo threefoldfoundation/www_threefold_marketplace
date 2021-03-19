@@ -18,18 +18,45 @@
       :sections="$page.markdownPage.comparisonSecs"
     />
 
-    <!-- <SolutionsHeader
-      v-if="$page.markdownPage.header"
-      :header="$page.markdownPage.header"
-    /> -->
-
     <NewCard
-      v-for="card in $page.markdownPage.cards"
+      v-for="card in $page.markdownPage.cards2"
       :key="card.id"
       :card="card"
     />
 
-    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
+    <Comparison
+      v-if="
+        $page.markdownPage.comparisonSecs &&
+        $page.markdownPage.comparisonSecs.length > 0
+      "
+      :main="$page.markdownPage.comparisonMain2"
+      :sections="$page.markdownPage.comparisonSecs2"
+    />
+
+    <SolutionsHeader
+      v-if="$page.markdownPage.header"
+      :header="$page.markdownPage.header"
+    />
+      
+    <ShowcaseProductsAbout
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+    />
+
+    <!-- <NewCard 
+      v-for="card in $page.markdownPage.cards"
+      :key="card.id"
+      :card="card"
+    /> -->
+
+    <CallToAction 
+      v-if="$page.markdownPage.cta" 
+      :cta="$page.markdownPage.cta" 
+    />
 
     <!-- <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
@@ -45,6 +72,11 @@
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
     /> -->
+      
+      <g-image 
+        v-if="$page.markdownPage.solution_image"
+        :src="$page.markdownPage.solution_image.src"
+      />
   </Layout>
 </template>
 
@@ -59,6 +91,7 @@
         header_altImg
         button
         link
+        solution_image
         header{
          title
          subtitle
@@ -82,7 +115,40 @@
           title
           content
         }
+        comparisonMain2{
+          id
+          title
+          description
+          button
+          link
+        }
+        comparisonSecs2{
+          id
+        # img
+          title
+          content
+        }
+        productsMain{
+          id
+          title
+          subtitle
+        #  image
+        }
+       productData{
+         id
+         title
+         image
+       }
         cards{
+          id
+          title
+          image
+          button
+          link
+          order
+          content
+        }
+        cards2{
           id
           title
           image
@@ -128,6 +194,7 @@
 import Header from "~/components/marketing/sections/cta-sections/Header.vue";
 import SolutionsHeader from "~/components/custom/sections/header/HeaderSection.vue";
 import Comparison from "~/components/custom/sections/Comparison.vue";
+import ShowcaseProductsAbout from "~/components/marketing/sections/cta-sections/ShowcaseProductsAbout.vue";
 import NewCard from "~/components/marketing/sections/cta-sections/NewCard.vue";
 import CallToAction from "~/components/custom/sections/CallToAction.vue";
 import logoShowcase from "~/components/marketing/sections/cta-sections/logoShowcase.vue";
@@ -140,6 +207,7 @@ export default {
     SolutionsHeader,
     Comparison,
     NewCard,
+    ShowcaseProductsAbout,
     CallToAction,
     logoShowcase,
     InTheNews,

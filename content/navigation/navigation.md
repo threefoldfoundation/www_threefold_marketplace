@@ -1,8 +1,8 @@
 ---
 id: navigation
 navLinks:
-  - name: About
-    link: /about
+  - name: Apps
+    link: /apps
     external: false
     expandable: false
     submenu:
@@ -15,10 +15,6 @@ navLinks:
       - title: ''
         path: ''
         external: false
-  - name: Apps
-    link: /apps
-    external: false
-    expandable: false
 social:
   - icon: telegram-plane
     link: '' #telegaram link

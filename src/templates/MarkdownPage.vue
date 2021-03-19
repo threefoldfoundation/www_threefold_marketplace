@@ -55,14 +55,14 @@
         :sections="$page.markdownPage.comparisonSecs"
       />
 
-      <ShowcaseProductsAbout
+      <!-- <ShowcaseProductsAbout
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
         v-if="
           $page.markdownPage.productData &&
           $page.markdownPage.productData.length > 0
         "
-      />
+      /> -->
 
       <!-- <Roadmap
         v-if="$page.markdownPage.roadmap.length > 0"

@@ -1,5 +1,5 @@
 ---
-id: product4
+id: four
 title: ''
 image: ./empower.png
 ---
