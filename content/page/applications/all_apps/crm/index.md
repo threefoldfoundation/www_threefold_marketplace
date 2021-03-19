@@ -37,9 +37,12 @@ And provides the safety and security you are looking for when it comes to your c
 > This software is supported & created by [Oroinc](https://oroinc.com/) <BR>
 > Please contact them for any support or commercial license.
 
-## Tutorial: How to Deploy
+## How to Deploy
 
-Coming soon – the CRM solution is not yet available on the marketplace.
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
+<br/>
+<br/>
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!
 
 <!-- Create widget which does following
 

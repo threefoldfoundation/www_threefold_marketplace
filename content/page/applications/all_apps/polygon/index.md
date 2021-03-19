@@ -41,16 +41,12 @@ Together we will expand Polygon's community-led Blockchain across the geographic
 
 ## Get started with Polygon
 
-1. Run your Polygon Validator node in a few clicks on ThreeFold's P2P cloud:
-<br/>
-<br/>
+## How to Deploy
 
-- [Deploy your VDC](https://vdc.testnet.grid.tf/vdc/) (Gold package and above)
-- Go to Blockchain solutions.
-- Deploy your Polygon sentry node and Validator nodes in a few clicks. 
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
 <br/>
 <br/>
-Note: To deploy a successful Polygon Validator Node with maximum security, the process requires deploying a sentry node first, then a validator. The whole process is in a few clicks. 
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!
 <br/>
 <br/>
-2. Build a dApp on Polygon powered by ThreeFold's P2P cloud (coming soon).
+Later this year, build a dApp on Polygon powered by ThreeFold's P2P cloud.

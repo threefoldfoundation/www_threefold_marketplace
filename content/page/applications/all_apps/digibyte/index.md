@@ -35,4 +35,7 @@ Through our partnership with the DigiByte Foundation, we empower the DGB communi
 
 ## Get Started 
 
-**Coming soon:** You will be able to soon deploy your own DigiByte full Node via the **ThreeFold Marketplace**'s dashboard in a few clicks. Stay tuned!
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
+<br/>
+<br/>
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!

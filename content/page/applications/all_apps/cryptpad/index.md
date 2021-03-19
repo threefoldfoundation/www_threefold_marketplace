@@ -5,7 +5,7 @@ tags: [decentralized_office]
 image: ./img/cryptpad.png
 ---
 
-# CryptPad Collaborative Docs
+# CryptPad (Collaborative Docs)
 
 ![](./img/what_is_cryptpad.png)
 
@@ -61,13 +61,12 @@ This is an alternative to Word and Google Docs. It allows you to create document
 
 ![](./img/drive.png)
 
-## Tutorial: How to Deploy
+## How to Deploy
 
-- First, visit CryptPad live on the marketplace
-- You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
-- Once you enter this information, all you need to do is wait for the solution to deploy. You can keep an eye on the screen for progress.
-- Upon completion, you'll see a link to view your solution live and it will remain live in your My Workloads section for three hours.
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
 <br/>
 <br/>
-
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!
+<br/>
+<br/>
 **Support CryptPad [here](https://cryptpad.fr/index.html).**

@@ -5,12 +5,31 @@ tags: [decentralized_we]
 image: ./img/publishtools.png
 ---
 
-# Publishing Tools
+# Website Publisher
 
-![](./img/website_browser.png)
+![](./img/webpublisherexample.png)
 <br/>
 
-For website (or blog or wiki) creation and management, there are may options available in the market. From total end-to-end solutions like Squarespace to do-it-yourself (and select the tools and software to run your website). ThreeFold has created publishing tools that allow for deployment and management with version control, automatic update, and staging facilities.
+For website creation and management, there are may options available in the market – from total end-to-end solutions like Squarespace to do-it-yourself. ThreeFold has created publishing tools that allow for deployment and management with version control, automatic update, and staging facilities.
+
+## What do you need to do?
+
+First, please note that in order to deploy a website using this tool, you'll need some technical knowledge of Git.
+<br/>
+<br/>
+The basic principle is that you create the content in the repository (html, markdown and other) and store it in a repository. Content creation can be done with any tools that you have experience with (or like). The only requirement is that you store the content in a public repository. This repository can be anything that stores code and provides version controlling. For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The actual deployment of the webserver infrastructure and all required domain name setup for the blog to be publicly available is done in the one-click (and three question) deployment.
+<br/>
+<br/>
+This website you are currently on was developed using the website publisher tool!
+
+## How to Deploy
+
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
+<br/>
+<br/>
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!
+
+<!--
 
 ## Why use these solutions?
 
@@ -49,24 +68,6 @@ _Please note that in order to deploy a website, blog, or wiki using these tools 
 - Once you enter this information, all you need to do is wait for the solution to deploy. You can keep an eye on the screen for progress.
 - Upon completion, you'll see a link to view your solution live and it will remain live in your My Workloads section for three hours.
 
-## Repository Examples
-
-- Website: [Incubaid](https://github.com/xmonader/www_incubaid)
-- Blog: [TF-Blog](https://github.com/threefoldfoundation/www_tfblog)
-- Wiki: [Grid Manual](https://github.com/threefoldfoundation/info_gridmanual)
-- [Repository Structure Info](https://github.com/crystaluniverse/publishingtools/blob/development/docs/repo_layout.md)
-
-## Live Examples
-
-- Website: [ThreeFold](https://www.threefold.io/)
-- Blog: [ThreeFold Blog](https://blog.threefold.io/)
-- Wiki: [ThreeFold Wiki](https://info.threefold.io)
-
-<br/>
-
-![](./img/blog_browser_1.png)
-
-<!--
 ### Deploy
 
 create widget which does following,

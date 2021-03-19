@@ -12,12 +12,16 @@ image: ./img/peertube.png
 
 If you use the Internet, you are surely familiar with video sharing. Sites like YouTube and Vimeo are the biggest examples. They are highly-popular, particularly with the mass market for camera phones and smartphones increasing the supply of user-generated videos.
 
+<!--
+
 ## What is a video sharing platform?
 
 - Since the early 2010s, with the increasing prevalence of technology and the Internet in everyday life, video hosting services have served as a portal to different forms of entertainment (comedy, games shows, games, or music), news, documentaries and educational videos.
 - Content may be user-generated / amateur clips or commercial-level products.
 - The entertainment industry uses this medium to release music, videos, movies and television shows directly to the public.
 - Video hosting services are becoming more & more popular, especially with the explosion in popularity of blogs, Internet forums and other interactive pages.
+
+-->
 
 ## Why is video sharing getting popular?
 
@@ -30,7 +34,7 @@ If you use the Internet, you are surely familiar with video sharing. Sites like 
 
 ## What makes our solution different?
 
-ThreeFold advocates that video sharing can also exist without this central platform (and organization) in the middle. You as a producer or consumer can create your own facility to share videos. There is open source software available to do so.
+ThreeFold advocates that video sharing can exist without a central platform (and organization) in the middle. You as a producer or consumer can create your own facility to share videos. There is open source software available to do so.
 
 ## Open Source Solution: PeerTube
 
@@ -54,7 +58,8 @@ src="https://framatube.org/videos/watch/9c9de5e8-0a1e-484a-b099-e80766180a6d?sub
 ## Deploy your own YouTube, super powerful & decentralized
 
 Unique characteristics of the platform:
-
+<br/>
+<br/>
 - PeerTube aspires to be a decentralized and free/libre alternative to video broadcasting services. The TF Grid present a fantastic fabric of compute and storage capabilities for this distributed and federated platform.
 - It is a network of inter-connected small videos hosters
 - An open-source, free/libre license code 
@@ -63,12 +68,12 @@ Unique characteristics of the platform:
 - The PeerTube software can, whenever necessary, use a peer-to-peer (P2P protocol to broadcast viral videos, lowering the load of their hosts
 > Help PeerTube, as they are [fundraising](https://joinpeertube.org/roadmap). With little, they can make this software even much better than it is today.
 
-## Tutorial: How to Deploy
+## How to Deploy
 
-- First, visit the PeerTube solution live on the marketplace
-- You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
-- Once you enter this information, all you need to do is wait for the solution to deploy. You can keep an eye on the screen for progress.
-- Upon completion, you'll see a link to view your solution live and it will remain live in your My Workloads section for three hours.
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
+<br/>
+<br/>
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!
 
 <!--
 

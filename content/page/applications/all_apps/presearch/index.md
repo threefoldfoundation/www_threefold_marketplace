@@ -35,8 +35,9 @@ Additionally, ThreeFold will be establishing Presearch’s decentralized search 
 
 ## Get started with Presearch
 
-Run your Presearch node in a few clicks on ThreeFold's decentralized cloud: 
+## How to Deploy
 
-- [Deploy your VDC](https://vdc.testnet.grid.tf/vdc/) (Gold package and above)
-- Go to Blockchains solutions.
-- Deploy your Presearch node in a few clicks.
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
+<br/>
+<br/>
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!

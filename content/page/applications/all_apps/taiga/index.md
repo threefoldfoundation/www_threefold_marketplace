@@ -5,7 +5,7 @@ tags: [decentralized_office]
 image: ./img/taiga.png
 ---
 
-# Project Management (Taiga)
+# Taiga (Project Management)
 
 ![](./img/taiga_frontpage.png)
 <br/>
@@ -37,18 +37,12 @@ A new methodology has been developed to do exactly the same as traditional water
 - **Customer collaboration** over contract negotiation
 - **Responding to change** over following a plan
 
-## Tutorial: How to Deploy
+## How to Deploy
 
-- First, visit the Project Management solution live on the marketplace
-- You'll be asked to enter a solution name – this can be anything and is simply to identify your specific deployment and will also be used in the deployment's unique URL
-- Next you'll be asked to enter an email address, your SMTP information, and a password
-    - For testing purposes please note you do not have to include real information
-    - If you want to test the email functionality for this tool, then you will have to include real information
-        - Email should then be a valid email address you have access to.
-        - If you don't know how to find your SMTP information, best option is to visit your preferred engine and type in "SMTP" or "find SMTP" and your email service and you should find the directions you need.
-        - Password can be made up but again if you do want to test the email functionality, please include your real password for the specified email.
-- Once you enter this information, all you need to do is wait for the solution to deploy. You can keep an eye on the screen for progress.
-- Upon completion, you'll see a link to view your solution live and it will remain live in your My Workloads section for three hours.
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
+<br/>
+<br/>
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!
 
 <!--
 

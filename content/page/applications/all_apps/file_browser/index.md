@@ -14,7 +14,7 @@ We all store important content online, from person and work-related documents, t
 
 ## Open Source Solution: File Browser
 
-[File Browser](https://filebrowser.org/) is an open source, community-led "create your own cloud" type of solution which we have utilized and customized for the ThreeFold Now Marketplace.
+[File Browser](https://filebrowser.org/) is an open source, community-led "create your own cloud" type of solution which we have utilized and customized for the ThreeFold Marketplace.
 
 ## Why File Browser?
 
@@ -38,4 +38,7 @@ We will be integrating the Office Tools solution as well so that you can store a
 
 ## How to Deploy
 
-Coming soon – the File Browser solution is not yet available on the marketplace.
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
+<br/>
+<br/>
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!

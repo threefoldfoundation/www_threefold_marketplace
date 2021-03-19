@@ -31,9 +31,12 @@ OnlyOffice is a private and secure alternative to the tools we use today. Beyond
 
 We will be integrating the File Browser solution as well so that you can store and edit documents within the same experience.
 
-## Tutorial: How to Deploy
+## How to Deploy
 
-Coming soon – the Office Tools solution is not yet available on the marketplace.
+Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
+<br/>
+<br/>
+If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!
 
 <!---
 
