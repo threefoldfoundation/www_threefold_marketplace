@@ -119,13 +119,13 @@
         header_title
         header_image
         solution_image
-        slides{
-          id
-          title
-          excerpt
-          image
-          order
-        }
+        # slides{
+        #  id
+        #  title
+        #  excerpt
+        #  image
+        #  order
+        # }
        header{
          title
          subtitle
@@ -191,11 +191,11 @@
           title
           content
         }
-        roadmap{
-          id
-          title
-          excerpt
-        }
+        # roadmap{
+        #  id
+        #  title
+        #  excerpt
+        #}
         pricing_plansMain{
           id
           title
