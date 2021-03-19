@@ -27,3 +27,9 @@ items:
       - name: ""
         link: "#"
 ---
+
+[Terms & Conditions](https://new.threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://new.threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()
+
+<br/>
+&#xA9; 2021 Marketplace by ThreeFold, All rights reserved.
+
