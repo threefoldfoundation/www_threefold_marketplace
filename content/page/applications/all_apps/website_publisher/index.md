@@ -1,8 +1,8 @@
 ---
-id: publishtools
-title: publishtools
+id: website_publisher
+title: Website Publisher
 tags: [decentralized_we]
-image: ./img/publishtools.png
+image: ./img/website_publisher.png
 ---
 
 # Website Publisher

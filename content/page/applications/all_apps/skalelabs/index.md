@@ -1,6 +1,6 @@
 ---
-id: skale
-title: skale
+id: skalelabs
+title: Skale Labs
 tags: [blockchain_solutions]
 image: ./img/skale.png
 ---

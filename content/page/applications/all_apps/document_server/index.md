@@ -1,8 +1,8 @@
 ---
-id: onlyoffice
-title: onlyoffice
+id: document_server
+title: Document Server
 tags: [decentralized_office]
-image: ./img/onlyoffice.png
+image: ./img/document_server.png
 ---
 
 # Document Server (OnlyOffice)

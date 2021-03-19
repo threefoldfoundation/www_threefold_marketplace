@@ -1,8 +1,8 @@
 ---
-id: bookstack
-title: bookstack
+id: knowledge_base
+title: Knowledge Base
 tags: [decentralized_we]
-image : ./img/bookstack.png
+image : ./img/knowledge_base.png
 ---
 
 # Knowledge Base (BookStack)

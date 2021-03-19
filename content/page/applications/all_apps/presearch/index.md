@@ -1,7 +1,7 @@
 ---
 id: presearch
 title: Presearch
-tags: [decentralized_we]
+tags: [blockchain_solutions]
 image: ./img/presearch.png
 ---
 
