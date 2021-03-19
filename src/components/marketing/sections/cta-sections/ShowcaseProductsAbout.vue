@@ -6,7 +6,7 @@
       </p>
       <h1
         v-if="main !== null"
-        class="text-4xl mt-2 mb-6 leading-tight font-heading"
+        class="text-4xl leading-tight font-semibold font-heading" 
       >
         {{ main.title }}
       </h1>

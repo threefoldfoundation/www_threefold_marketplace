@@ -1,10 +1,10 @@
 ---
-id: power_of_p2p
-title: The Power of P2P
-image: ./power_of_p2p.png
+id: marketplace
+title: Building the most complete P2P Marketplace
+image: ./marketplace.png
 button: ''
 link: '' #link for button
 order: 6
 ---
 
-Today, online privacy and security are badly compromised. Peer-to-Peer models empower communities with equality, sovereignty and resiliency.
+And you are in the center of it all. With a growing number of applications constantly being added to our selection, we are excited to bring to you a marketplace which focuses on security and privacy. Powerful edge technology allows your data to travel with you and eliminates the concerns of the current centralized internet.

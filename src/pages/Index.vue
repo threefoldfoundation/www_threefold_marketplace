@@ -19,7 +19,7 @@
     />
 
     <NewCard
-      v-for="card in $page.markdownPage.cards2"
+      v-for="card in $page.markdownPage.cards"
       :key="card.id"
       :card="card"
     />
@@ -33,9 +33,14 @@
       :sections="$page.markdownPage.comparisonSecs2"
     />
 
-    <SolutionsHeader
+    <!-- <SolutionsHeader
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
+    /> -->
+
+    <CallToAction 
+      v-if="$page.markdownPage.cta2" 
+      :cta="$page.markdownPage.cta2" 
     />
       
     <ShowcaseProductsAbout
@@ -48,7 +53,7 @@
     />
 
     <!-- <NewCard 
-      v-for="card in $page.markdownPage.cards"
+      v-for="card in $page.markdownPage.cards2"
       :key="card.id"
       :card="card"
     /> -->
@@ -158,6 +163,13 @@
           content
         }
         cta{
+          id
+          title
+          content
+          button
+          link
+        }
+        cta2{
           id
           title
           content

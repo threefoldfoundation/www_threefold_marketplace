@@ -1,5 +1,5 @@
 ---
 id: empowerment
-title: Give the Gift of Empowerment
+title: GIVE THE GIFT OF EMPOWERMENT
 subtitle: ''
 ---
