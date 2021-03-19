@@ -1,31 +1,45 @@
 ---
 id: footer
-description: ""
-linkedin: "#" #replace # with a link
-facebook: "#"
-twitter: "#"
-dribbble: "#"
-instagram: "#"
-youtube: "#"
-github: "#"
-telegram: "#"
+description: P2P MARKETPLACE
+linkedin: 'https://www.linkedin.com/company/threefold-foundation/'
+facebook: 'https://www.facebook.com/threefold.io'
+twitter: 'https://twitter.com/threefold_io'
+dribbble: '#'
+instagram: '#'
+youtube: 'https://www.youtube.com/threefoldfoundation'
+github: 'https://github.com/threefoldfoundation'
+telegram: 'https://t.me/threefoldnews'
 items:
-  - title: ""
+  - title: LEARN
     links:
-      - name: ""
-        link: "#"
-  - title: ""
+      - name: 'Knowledge Base'
+        link: 'https://new.threefold.io/info/cloud#/cloud__evdc_marketplace'
+      - name: 'About ThreeFold'
+        link: 'https://new.threefold.io'
+      - name: 'ThreeFold P2P Cloud'
+        link: 'https://new.threefold.io/cloud'
+      - name: 'ThreeFold Token'
+        link: 'https://new.threefold.io/farming/token'
+
+  - title: PARTICIPATE
     links:
-      - name: ""
-        link: "#"
-  - title: ""
+      - name: 'Get Started'
+        link: 'https://new.threefold.io/info/cloud#/cloud__evdc_getting_started​​​​​​​​​​​​​​​​​​​​​'
+      - name: 'Applications'
+        link: '/apps​​​​​​​​​​​​​​​​​​​​​'
+      - name: 'How to Get TFT'
+        link: 'https://new.threefold.io/info/threefold#/threefold__how_to_buy_and_sell​​​​​​​​​​​​​​​​​​​​​'
+      - name: 'Store TFT'
+        link: 'https://new.threefold.io/info/threefold#/threefold__storing_tft'
+
+  - title: COMMUNITY
     links:
-      - name: ""
-        link: "#"
-  - title: ""
-    links:
-      - name: ""
-        link: "#"
+      - name: 'Join our Forum'
+        link: 'https://forum.threefold.io/'
+      - name: 'Stay Updated'
+        link: 'https://t.me/threefoldnews'
+      - name: 'Contact Us'
+        link: 'mailto:info@threefold.io'
 ---
 
 [Terms & Conditions](https://new.threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://new.threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()

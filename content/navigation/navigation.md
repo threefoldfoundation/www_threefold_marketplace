@@ -8,13 +8,20 @@ navLinks:
     submenu:
       - title: ''
         path: ''
-
-      - title: ''
-        path: ''
-
-      - title: ''
-        path: ''
         external: false
+  - name: 'Learn'
+    link: 'https://new.threefold.io/info/cloud#/cloud__evdc_marketplace'
+    external: true
+    expandable: false
+  - name: 'Build'
+    link: 'https://vdc.testnet.grid.tf/vdc/#/'
+    external: true
+    expandable: false
+  - name: 'Forum'
+    link: 'https://forum.threefold.io'
+    external: true
+    expandable: false
+
 social:
   - icon: telegram-plane
     link: '' #telegaram link
