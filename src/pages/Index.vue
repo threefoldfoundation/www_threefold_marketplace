@@ -37,11 +37,6 @@
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
     /> -->
-
-    <CallToAction 
-      v-if="$page.markdownPage.cta2" 
-      :cta="$page.markdownPage.cta2" 
-    />
       
     <ShowcaseProductsAbout
         :main="$page.markdownPage.productsMain"
@@ -58,10 +53,10 @@
       :card="card"
     /> -->
 
-    <CallToAction 
+    <!-- <CallToAction 
       v-if="$page.markdownPage.cta" 
       :cta="$page.markdownPage.cta" 
-    />
+    /> -->
 
     <!-- <logoShowcase
       v-if="$page.markdownPage.logos.length > 0"
@@ -73,10 +68,15 @@
       :news="$page.markdownPage.inTheNews"
     /> -->
 
-    <!-- <SignUp
+    <SignUp
       v-if="$page.markdownPage.signup"
       :signup="$page.markdownPage.signup"
-    /> -->
+    />
+
+    <CallToAction 
+      v-if="$page.markdownPage.cta2" 
+      :cta="$page.markdownPage.cta2" 
+    />
       
       <g-image 
         v-if="$page.markdownPage.solution_image"

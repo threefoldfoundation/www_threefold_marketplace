@@ -1,8 +1,8 @@
 ---
-id: home_signup
-title: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-button1: Button
-link1: '' #Add button1 link here
-button2: Button
+id: beta_signup_home
+title: We are currently in BETA. If you'd like to test the ThreeFold Marketplace solutions, please join our testing community!
+button1: JOIN HERE
+link1: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
+button2: ''
 link2: '' #Add button1 link here
 ---

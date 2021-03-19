@@ -11,11 +11,12 @@ comparisonSecs: [app_1, app_2, app_3]
 cards: [power_of_p2p]
 comparisonMain2: values
 comparisonSecs2: [section1, section2, section3]
-cta2: made_possible
 productsMain: empowerment
 productData: [one, two, three, four]
-cta: home_cta
+signup: beta_signup_home
+cta2: made_possible
 solution_image: ./about_map.png
 ---
 
 <!-- cards2: [marketplace] -->
+<!-- cta: home_cta -->
