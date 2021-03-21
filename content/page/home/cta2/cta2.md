@@ -1,6 +1,6 @@
 ---
 id: made_possible
-title: POSSIBLE BY THE THREEFOLD GRID
+title: POWERED BY THE THREEFOLD GRID
 button: LEARN MORE
 link: 'https://new.threefold.io/info/threefold#/threefold__grid_what'
 ---
