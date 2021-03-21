@@ -4,8 +4,8 @@
       <div
         class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:rounded-lg"
       >
-        <div class="lg:w-1/2">
-          <div class="h-64 bg-cover lg:rounded-lg lg:h-full" :style="img"></div>
+        <div class="lg:w-1/2 ">
+          <div class="h-64 bg-contain lg:rounded-lg lg:h-full" :style="img"></div>
         </div>
         <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
           <h2 class="text-4xl leading-tight font-semibold font-heading">{{ card.title }}</h2>

@@ -9,3 +9,5 @@ order: 6
 
 Today, online privacy and security are badly compromised. 
 Peer-to-Peer models empower communities with equality, sovereignty and resiliency.
+
+
