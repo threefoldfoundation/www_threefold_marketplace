@@ -12,33 +12,33 @@ telegram: 'https://t.me/threefoldnews'
 items:
   - title: LEARN
     links:
-      - name: 'Knowledge Base'
-        link: 'https://new.threefold.io/info/cloud#/cloud__evdc_marketplace'
-      - name: 'About ThreeFold'
-        link: 'https://new.threefold.io'
-      - name: 'ThreeFold P2P Cloud'
-        link: 'https://new.threefold.io/cloud'
-      - name: 'ThreeFold Token'
-        link: 'https://new.threefold.io/farming/token'
+      - name: Knowledge Base
+        link: /info/cloud#/cloud__evdc_marketplace
+      - name: About ThreeFold
+        link: /
+      - name: ThreeFold P2P Cloud
+        link: /cloud
+      - name: ThreeFold Token
+        link: /farming/token
 
   - title: PARTICIPATE
     links:
-      - name: 'Get Started'
-        link: https://new.threefold.io/info/cloud#/cloud__evdc_getting_started
-      - name: 'Applications'
+      - name: Get Started
+        link: /info/cloud#/cloud__evdc_getting_started
+      - name: Applications
         link: /apps
-      - name: 'How to Get TFT'
-        link: https://new.threefold.io/info/threefold#/threefold__how_to_buy_and_sell
-      - name: 'Store TFT'
-        link: https://new.threefold.io/info/threefold#/threefold__storing_tft
+      - name: How to Get TFT
+        link: /info/threefold#/threefold__how_to_buy_and_sell
+      - name: Store TFT
+        link: /info/threefold#/threefold__storing_tft
 
   - title: COMMUNITY
     links:
-      - name: 'Join our Forum'
-        link: 'https://forum.threefold.io/'
-      - name: 'Stay Updated'
-        link: 'https://t.me/threefoldnews'
-      - name: 'Contact Us'
+      - name: Join our Forum
+        link: https://forum.threefold.io/
+      - name: Stay Updated
+        link: https://t.me/threefoldnews
+      - name: Contact Us
         link: 'mailto:info@threefold.io'
 ---
 
