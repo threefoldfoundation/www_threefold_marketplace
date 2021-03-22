@@ -7,7 +7,7 @@
         <div class="lg:w-1/2 ">
           <div class="h-64 bg-contain lg:rounded-lg lg:h-full" :style="img"></div>
         </div>
-        <div class="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
+        <div class="py-24 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
           <h2 class="text-4xl leading-tight font-semibold font-heading">{{ card.title }}</h2>
           <div class="mt-4 text-gray-700" v-html="card.content"></div>
           <div class="mt-8" v-if="card.button">

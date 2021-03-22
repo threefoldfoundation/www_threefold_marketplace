@@ -1,7 +1,7 @@
 ---
 id: power_of_p2p
 title: THE POWER OF P2P 
-image: ./power_of_p2p.png
+image: ./power.png
 button: ''
 link: '' #link for button
 order: 6
