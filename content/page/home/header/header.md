@@ -2,8 +2,8 @@
 id: made_possible
 title: ''
 subtitle: Made Possible by the ThreeFold Grid
-btn1: 'Learn More'
-link1: https://new.threefold.io/info/threefold#/threefold__grid_what
+btn1: Learn More
+link1: /info/threefold#/threefold__grid_what
 btn2: ''
 link2: '' #link for button
 ---
