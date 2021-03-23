@@ -9,16 +9,9 @@ navLinks:
       - title: ''
         path: ''
         external: false
+
   - name: Learn
     link: /info/cloud#/cloud__evdc_marketplace
-    external: true
-    expandable: false
-  - name: Build
-    link: https://vdc.testnet.grid.tf/vdc/#/
-    external: true
-    expandable: false
-  - name: Forum
-    link: https://forum.threefold.io
     external: true
     expandable: false
 
