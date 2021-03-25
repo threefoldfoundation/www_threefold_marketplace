@@ -37,14 +37,14 @@
       v-if="$page.markdownPage.header"
       :header="$page.markdownPage.header"
     /> -->
-      
+
     <ShowcaseProductsAbout
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
+      :main="$page.markdownPage.productsMain"
+      :products="$page.markdownPage.productData"
+      v-if="
+        $page.markdownPage.productData &&
+        $page.markdownPage.productData.length > 0
+      "
     />
 
     <!-- <NewCard 
@@ -73,15 +73,15 @@
       :signup="$page.markdownPage.signup"
     />
 
-    <CallToAction 
-      v-if="$page.markdownPage.cta2" 
-      :cta="$page.markdownPage.cta2" 
+    <CallToAction
+      v-if="$page.markdownPage.cta2"
+      :cta="$page.markdownPage.cta2"
     />
-      
-      <g-image 
-        v-if="$page.markdownPage.solution_image"
-        :src="$page.markdownPage.solution_image.src"
-      />
+
+    <g-image
+      v-if="$page.markdownPage.solution_image"
+      :src="$page.markdownPage.solution_image.src"
+    />
   </Layout>
 </template>
 
@@ -227,11 +227,7 @@ export default {
   },
   metaInfo: {
     title: "",
-    titleTemplate: "ThreeFold Marketplace",
- 
-  },
-  mounted() {
-    console.log(this.$page.markdownPage.comparisonSecs);
+    titleTemplate: "ThreeFold Marketplace | P2P Community Apps",
   },
 };
 </script>
