@@ -1,9 +1,12 @@
 <template>
-  <section class="py-12 px-4 text-center">
-    <h2 class="text-4xl mb-2 leading-tight font-semibold font-heading">
+  <section class="px-4 text-center">
+    <h2
+      v-if="main.title"
+      class="text-4xl mb-2 leading-tight font-semibold font-heading"
+    >
       {{ main.title }}
     </h2>
-    <p class="text-gray-600">{{ main.description }}</p>
+    <p v-if="main.description" class="text-gray-600">{{ main.description }}</p>
     <div class="flex flex-wrap items-center mx-8 mt-12 mb-16">
       <div
         class="lg:w-1/3 px-6 mb-2"
