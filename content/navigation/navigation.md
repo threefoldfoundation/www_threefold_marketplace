@@ -17,8 +17,5 @@ navLinks:
 
 social:
   - icon: telegram-plane
-    link: '' #telegaram link
-
-  - icon: linkedin
-    link: '' #linkedin link
+    link: https://t.me/threefoldnews
 ---
