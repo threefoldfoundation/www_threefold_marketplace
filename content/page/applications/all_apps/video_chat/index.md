@@ -38,7 +38,7 @@ Such a peer-to-peer video conferencing solution has been created and exists on t
 
 ## How to Deploy
 
-Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
+Please visit [the Marketplace Wiki](https://threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
 <br/>
 <br/>
 If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!

@@ -39,7 +39,7 @@ A new methodology has been developed to do exactly the same as traditional water
 
 ## How to Deploy
 
-Please visit [the Marketplace Wiki](https://new.threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
+Please visit [the Marketplace Wiki](https://threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
 <br/>
 <br/>
 If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!
