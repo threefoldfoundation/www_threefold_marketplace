@@ -15,6 +15,12 @@ navLinks:
     external: true
     expandable: false
 
+  - name : TF Home
+    link: /
+    external: true
+    expandable: false
+
+
 social:
   - icon: telegram-plane
     link: https://t.me/threefoldnews
