@@ -1,5 +1,5 @@
 <template>
-  <section class="px-4 text-center">
+  <section class="mt-24 mb-20 px-4 text-center"> 
     <h2
       v-if="main.title"
       class="text-4xl mb-2 leading-tight font-semibold font-heading"
@@ -7,7 +7,7 @@
       {{ main.title }}
     </h2>
     <p v-if="main.description" class="text-gray-600">{{ main.description }}</p>
-    <div class="flex flex-wrap items-center mx-8 mt-12 mb-16">
+    <div class="flex flex-wrap items-center mx-8 mt-12 mb-10">
       <div
         class="lg:w-1/3 px-6 mb-2"
         v-for="(section, index) in sections"
