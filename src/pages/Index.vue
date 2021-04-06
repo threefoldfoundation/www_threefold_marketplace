@@ -18,11 +18,11 @@
       :sections="$page.markdownPage.comparisonSecs"
     />
 
-    <NewCard
+    <!-- <NewCard
       v-for="card in $page.markdownPage.cards"
       :key="card.id"
       :card="card"
-    />
+    /> -->
 
     <Comparison
       v-if="
