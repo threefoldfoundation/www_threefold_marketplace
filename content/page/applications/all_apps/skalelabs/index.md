@@ -1,6 +1,6 @@
 ---
 id: skalelabs
-title: Skale Labs
+title: Skale Network
 tags: [blockchain_solutions]
 image: ./img/skale.png
 ---
@@ -13,7 +13,7 @@ image: ./img/skale.png
 
 Solving scalability and decentralization limitations faced by Ethereum developers!
 
-## About SKALE Labs
+## About SKALE Network
 
 **[SKALE](https://skale.network/)** is an elastic blockchain network that gives developers the ability to easily provision highly configurable fully decentralized chains that are instantly compatible with Ethereum.
 <br/>
@@ -22,7 +22,7 @@ Solving scalability and decentralization limitations faced by Ethereum developer
 - SKALE chains can execute sub-second block times, run up to 2,000 tps per chain, and run full-state smart contracts in addition to decentralized storage, execute Rollups, and machine learning in EVM.
 - The SKALE Network is an open-source project with many contributors including SKALE Labs.
 
-## SKALE Labs and ThreeFold
+## SKALE Network and ThreeFold
 
 The SKALE and ThreeFold collaboration focuses on solving scalability and decentralization limitations faced by Ethereum and blockchain developers. The effort empowers the SKALE developer community, and Web3 developers, with the ThreeFold Peer-to-Peer Cloud, enabling them to:
 <br/>

@@ -36,7 +36,7 @@ Harmony.one and ThreeFold joined forces to provide a performant, decentralized a
 - By Leveraging ThreeFold's decentralized storage, compute, and networking, as well as its compatibility with Docker, Kubernetes, S3 storage, containerized databases, and other open-source software, Harmony's developer community unlocks an additional alternative to centralized cloud providers
 - This brings the ability to build highly-scalable cloud-native and Blockchain-based applications and deploy them close to where their users are.
 
-## Get started with Harmony
+## Get Started
 
 Learn how to deploy Harmony validator nodes in a few clicks with this **[Harmony Tutorial](https://forum.threefold.io/t/setting-up-a-harmony-node-on-the-threefold-grid/476).**
 <br/>

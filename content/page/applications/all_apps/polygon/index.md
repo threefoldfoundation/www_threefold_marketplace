@@ -39,9 +39,7 @@ By leveraging the ThreeFold P2P Cloud and its developer tools (the Edge Virtual 
 
 Together we will expand Polygon's community-led Blockchain across the geographical edges, while creating a more inclusive and cost-effective participation model for anybody on earth to be involved in the growing Polygon ecosystem.
 
-## Get started with Polygon
-
-## How to Deploy
+## Get Started
 
 Please visit [the Marketplace Wiki](https://threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions, if available. Note: Not all apps are yet live.
 <br/>

@@ -31,6 +31,6 @@ By leveraging the ThreeFold P2P Cloud/ 3Bot and its efficient workload deploymen
 - Elrond node operators help secure, maintain, and expand the Elrond Blockchain.
 - And by using the 3Bot, they have the ability to securely control their containerized node, customize it in their own Staking terms, and help distribute the Elrond Blockchain across the globe, including remote areas. 
 
-## Get Started with Elrond
+## Get Started
 
 **Coming soon:** You will be able to soon deploy and run your own Elrond validator node via the **ThreeFold Marketplace**'s dashboard in a few clicks. Stay tuned!

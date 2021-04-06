@@ -37,6 +37,6 @@ Dash  has established itself as a leader in the digital currency and Blockchain
     - running their own Dash full nodes to help secure the network and get incentivized by doing so
     - or by running a Dash Masternode for a more advanced contribution to the Dash governance ecosystem. 
 
-## Get started with Dash
+## Get Started
 
 **Coming soon:** You will be able to soon deploy Dash Full nodes and Master nodes via the **ThreeFold Marketplace**'s dashboard, in just a few clicks. Stay tuned!

@@ -23,19 +23,11 @@ Presearch (and its node and storage infrastructure) will benefit from ThreeFold�
 <br/>
 <br/>
 
-First, the Presearch community will be able to deploy their Presearch nodes in a few clicks in a completely decentralized cloud infrastructure, using the ThreeFold peer-to-peer cloud and its developer tools. Thus, they can escape the monopolies of centralized cloud providers, and reduce the technical complexity of running Blockchain nodes.
-<br/>
-<br/>
+- First, the Presearch community will be able to deploy their Presearch nodes in a few clicks in a completely decentralized cloud infrastructure, using the ThreeFold peer-to-peer cloud and its developer tools. Thus, they can escape the monopolies of centralized cloud providers, and reduce the technical complexity of running Blockchain nodes.
+- Second, Presearch and ThreeFold are exploring the usage of ThreeFold’s decentralized storage capacity to store and archive Presearch’s indexes and other data running the search engine. The main goal is to provide an unbreakable data storage and backup infrastructure for the future of the search engine experience that the top-notch team behind Presearch is building.
+- Additionally, ThreeFold will be establishing Presearch’s decentralized search engine as its main search engine partner, advocating for its usage within its growing community of developers, cloud capacity farmers, enterprises, and users.
 
-Second, Presearch and ThreeFold are exploring the usage of ThreeFold’s decentralized storage capacity to store and archive Presearch’s indexes and other data running the search engine. The main goal is to provide an unbreakable data storage and backup infrastructure for the future of the search engine experience that the top-notch team behind Presearch is building.
-<br/>
-<br/>
-
-Additionally, ThreeFold will be establishing Presearch’s decentralized search engine as its main search engine partner, advocating for its usage within its growing community of developers, cloud capacity farmers, enterprises, and users.
-
-## Get started with Presearch
-
-## How to Deploy
+## Get Started
 
 Please visit [the Marketplace Wiki](https://threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
 <br/>

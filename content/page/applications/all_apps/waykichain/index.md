@@ -33,6 +33,6 @@ ThreeFold and WaykiChain found clear alignment on decentralizing the Internet fo
 - By using The ThreeFold P2P cloud and the 3Bot, The WaykiChain community of developers, non-developers, and node operators are enabled to deploy and maintain their WaykiChain nodes and any of their IT workloads in just a few clicks directly from the browser or from a local machine. 
 - ThreeFold's compute, storage, and networking capacities empower them to decentralize their cloud-computing infrastructures, with far more affordability and distribution compared to centralized cloud-providers, and with native cloud automation via ThreeFold’s Smart contract for IT.
 
-## Get started
+## Get Started
 
 **Coming soon:** You will be able to soon deploy WaykiChain nodes via the **ThreeFold Marketplace**'s dashboard in a few clicks. Stay tuned!
