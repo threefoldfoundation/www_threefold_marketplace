@@ -35,7 +35,8 @@
 
 <page-query>
 query($page: Int){
-  entries: allPerson (perPage: 10, page: $page, sortBy: "rank", order: DESC, filter: { memberships: { id: {in: ["foundation", "tech"]}}}) @paginate{
+  entries: allPerson (perPage: 10, page: $page, sortBy: "rank", order: ASC, filter: { category: { contains: ["marketplace"]}})@paginate{
+    totalCount
     totalCount
     pageInfo {
       totalPages
