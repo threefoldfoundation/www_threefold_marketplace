@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-24 mb-20 px-4 text-center"> 
+  <section class="mt-24 mb-20 py-6 px-4 text-center"> 
     <h2
       v-if="main.title"
       class="text-4xl mb-2 leading-tight font-semibold font-heading"

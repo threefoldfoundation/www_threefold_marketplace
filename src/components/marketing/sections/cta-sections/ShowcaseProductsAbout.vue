@@ -1,12 +1,12 @@
 <template>
-  <div class="py-20 mb-5">
+  <div class="py-10  mb-10">
      <div class="w-full text-center">
       <p v-if="main !== null" class="text-sm tracking-widest text-gray-700">
         {{ main.subtitle }}
       </p>
       <h1
         v-if="main !== null"
-        class="text-4xl leading-tight font-semibold font-heading" 
+        class="text-4xl leading-tight font-semibold py-4 font-heading" 
       >
         {{ main.title }}
       </h1>

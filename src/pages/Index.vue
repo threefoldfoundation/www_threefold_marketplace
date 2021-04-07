@@ -9,7 +9,7 @@
       :link="$page.markdownPage.link"
     />
 
-    <Comparison
+    <Comparison 
       v-if="
         $page.markdownPage.comparisonSecs &&
         $page.markdownPage.comparisonSecs.length > 0
@@ -73,7 +73,7 @@
       :signup="$page.markdownPage.signup"
     />
 
-    <CallToAction
+    <CallToAction class="mt-10"
       v-if="$page.markdownPage.cta2"
       :cta="$page.markdownPage.cta2"
     />
