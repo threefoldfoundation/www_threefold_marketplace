@@ -2,7 +2,7 @@
 id: casperlabs
 title: casperlabs
 tags: [blockchain_solutions]
-image: ./img/
+image: ./img/casperlabs.png
 ---
 
 # CasperLabs

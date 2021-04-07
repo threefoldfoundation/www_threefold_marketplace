@@ -5,6 +5,7 @@ header: apps_header
 appsMain: ''
 apps: [
     blog_publisher,
+    casperlabs,
     commento,
     crm,
     cryptpad,
