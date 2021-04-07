@@ -137,6 +137,10 @@
           id
           title
           subtitle
+          button
+          link 
+          button2
+          link2
         #  image
         }
        productData{

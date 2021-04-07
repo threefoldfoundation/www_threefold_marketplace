@@ -6,7 +6,8 @@
 
 module.exports = {
     siteName: 'ThreeFold Marketplace',
-    plugins: [
+    pathPrefix: "marketplace",
+	plugins: [
 
         // Local models
         {
@@ -485,7 +486,8 @@ module.exports = {
             externalLinksTarget: '_blank',
             externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
             anchorClassName: 'icon icon-link',
-            plugins: [
+            pathPrefix: "marketplace",
+	plugins: [
                 ['gridsome-plugin-remark-prismjs-all', {
                         highlightClassName: "gridsome-highlight",
                         codeTitleClassName: "gridsome-code-title",

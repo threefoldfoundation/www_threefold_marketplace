@@ -1,5 +1,5 @@
 <template>
-  <div class="py-8 mb-5">
+  <div class="py-20 mb-5">
      <div class="w-full text-center">
       <p v-if="main !== null" class="text-sm tracking-widest text-gray-700">
         {{ main.subtitle }}
@@ -27,6 +27,35 @@
         
       </div>
     </div>
+
+         <div class="mt-8 w-full text-center" v-if="main.button || main.button2 ">
+            <a
+              v-if="main.link.includes('http')"
+              target="_blank"
+              :href="main.link"
+              class="inline-block uppercase bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-8 py-2 mr-5 my-2 rounded shadow rounded-full"
+              >{{ main.button }}</a 
+            >
+            <a
+              v-else
+              :href="main.link"
+              class="inline-block uppercase bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-8 py-2 mr-5 my-2 rounded shadow rounded-full"
+              >{{ main.button }}</a
+            >
+            <a
+              v-if="main.link2.includes('http')"
+              target="_blank"
+              :href="main.link2"
+              class="inline-block uppercase bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-8 py-2 mr-5 my-2 rounded shadow rounded-full"
+              >{{ main.button2 }}</a 
+            >
+            <a
+              v-else
+              :href="main.link2"
+              class="inline-block uppercase bg-blue-900 text-sm learn-button hover:bg-blue-800 text-gray-100 px-8 py-2 mr-5 my-2 rounded shadow rounded-full"
+              >{{ main.button2 }}</a
+            >
+          </div>
   </div>
 </template>
 
