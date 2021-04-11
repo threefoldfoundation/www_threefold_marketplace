@@ -74,8 +74,16 @@
               v-for="tag in record.tags"
               :key="tag.id"
               :to="tag.path"
-              class="text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
-              >{{ tag.title }}</g-link
+              class="inline-block text-xs bg-transparent hover:text-blue-700 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+              >{{ tag.title.replace("_", " ") }}</g-link
+            >
+
+            <g-link
+              v-for="membership in record.memberships"
+              :key="membership.id"
+              :to="membership.path"
+              class="inline-block text-xs bg-transparent hover:text-blue-700 mb-2 py-2 px-4 mr-2 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full"
+              >{{ membership.title.replace("_", " ") }}</g-link
             >
           </section>
         </div>
@@ -109,7 +117,7 @@ export default {
         return [];
       }
       memberships.forEach(function (membership) {
-        if(["foundation", "tech", "farmers"].includes(membership.title)){
+        if (["foundation", "tech", "marketplace"].includes(membership.title)) {
           res.push(membership);
         }
       });
@@ -125,6 +133,9 @@ export default {
       if (image.src) return image.src;
       return image;
     },
+  },
+  mounted() {
+    console.log(this.record.memberships);
   },
 };
 </script>

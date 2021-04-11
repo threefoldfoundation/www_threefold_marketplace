@@ -6,25 +6,24 @@
       :selected="title"
       v-if="tagTitles.length > 2"
     />
-    <div class="container mx-auto overflow-x-hidden pt-12">
+    <div class="container sm:px-0 mx-auto overflow-x-hidden pt-12">
       <div class="mx-4 sm:mx-0">
         <h1 class="pb-0 mb-0 text-5xl font-medium capitalize">
-          {{ tags.title.replace("_", " ") }}
+          {{ tags.title }}
         </h1>
         <p class="text-gray-700 text-xl">
-          <span class="self-center"
-            >{{ tags.belongsTo.totalCount }} {{ item }}</span
-          >
+          <span class="self-center">{{ items.length }} {{ item }}</span>
         </p>
       </div>
 
-      <!-- <div class="pt-8 border-b"></div> -->
+      <div class="pt-8 border-b"></div>
 
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-4 pt-8 pb-8 mx-2">
+      <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
         <PostListItem
-          v-for="edge in tags.belongsTo.edges"
-          :key="edge.node.id"
-          :record="edge.node"
+          :showtags="true"
+          v-for="item in items"
+          :key="item.id"
+          :record="item"
         />
       </div>
 
@@ -60,7 +59,12 @@
               image(width:800)
               path
               datetime : created
-              
+              category
+              tags{
+                id
+                title
+                path
+              }
             }
           }
         }
@@ -129,34 +133,14 @@
       }
     }
 
-    appsTag(id: $id) {
-      title
-      path
-      belongsTo{
-        totalCount
-        pageInfo {
-          totalPages
-          currentPage
-        }
-        edges {
-          node {
-            ... on App {
-              title
-              image
-              path
-            }
-          }
-        }
+    allProjectTag(filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}){
+     edges{
+      node{
+        id
+        title
+        path
       }
     }
-    allProjectTag(filter: { title: {in: ["farming", "cloud", "grid", "digitaltwin"]}}){
-      edges{
-        node{
-          id
-          title
-          path
-        }
-      }
     }
 
     allNewsTag{
@@ -177,18 +161,9 @@
         path
       }
     }
-  } 
+} 
 
-    allAppsTag{
-     edges{
-      node{
-        id
-        title
-        path
-      }
-    }
-  } 
-}
+  }
 </page-query>
 
 <script>
@@ -219,27 +194,17 @@ export default {
       } else if (this.$page.blogTag) {
         path = "/blog";
         tags = this.$page.allBlogTag;
-      } else if (this.$page.appsTag) {
-        path = "/apps";
-        tags = this.$page.allAppsTag;
       }
-      var res = [{ title: "All", path: path }];
+
+      var res = [{ title: "All Tags", path: path }];
       tags.edges.forEach((edge) =>
-        res.push({
-          title: edge.node.title.replace("_", " "),
-          path: edge.node.path,
-        })
+        res.push({ title: edge.node.title, path: edge.node.path })
       );
       return res;
     },
 
     tags() {
-      return (
-        this.$page.projectTag ||
-        this.$page.newsTag ||
-        this.$page.blogTag ||
-        this.$page.appsTag
-      );
+      return this.$page.projectTag || this.$page.newsTag || this.$page.blogTag;
     },
     item() {
       var plural = this.tags.belongsTo.totalCount > 0;
@@ -257,6 +222,18 @@ export default {
         if (plural) return "posts";
         return "post";
       }
+    },
+    items() {
+      let marketplaceItems = [];
+      this.tags.belongsTo.edges.map((edge) => {
+        if (Array.isArray(edge.node.category)) {
+          if (edge.node.category.includes("marketplace"))
+            marketplaceItems.push(edge.node);
+        } else {
+          marketplaceItems.push(edge.node);
+        }
+      });
+      return marketplaceItems;
     },
   },
 

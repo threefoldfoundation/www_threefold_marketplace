@@ -20,14 +20,16 @@
           :record="post.node"
         />
       </div>
-
+      <div class="text-center" v-if="news.edges.length == 0">
+        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">No results</h2>
+      </div>
       <div class="pagination flex justify-center mb-8">
         <Pagination
           :baseUrl="baseurl"
           :currentPage="blogs.pageInfo.currentPage"
           :totalPages="blogs.pageInfo.totalPages"
           :maxVisibleButtons="5"
-          v-if="blogs.pageInfo.totalPages > 1 && blogs.edges.length > 0"
+          v-if="blogs.pageInfo.totalPages > 1 && blogs.edges.length >= 10"
         />
       </div>
     </div>
@@ -36,7 +38,7 @@
 <page-query>
 
 query($page: Int){
-  entries: allBlog(perPage: 10, page: $page, sortBy: "created", order: DESC, filter: {category: { id: {in: ["farming"]}}}) @paginate{
+  entries: allBlog(perPage: 10, page: $page, sortBy: "created", order: DESC, filter: {category: { contains: ["marketplace"]}}) @paginate{
     totalCount
     pageInfo {
       totalPages
