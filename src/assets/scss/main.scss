@@ -95,10 +95,10 @@ ul {
 .flex-post {
     @apply border-b;
     @apply border-b-gray-300;
-    // @apply flex-col;
+    @apply flex-col;
     @apply w-full;
     .post-card-image {
-        @apply h-56;
+        @apply h-full;
         @apply w-full;
         @apply object-cover;
         @apply rounded;
@@ -126,8 +126,12 @@ button:focus {
     font-size: 1.2rem;
 }
 
+.post-content a {
+    color: #4ec48f;
+}
+
 .text-8xl {
-    font-size: 5rem;
+    font-size: 6rem;
     line-height: 1;
 }
 

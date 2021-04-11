@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-post px-0 pb-8 mb-8"
+    class="flex flex-post px-0 sm:px-4 pb-8 mb-8"
     v-bind:class="{ 'no-border': !border }"
   >
     <g-link :to="path" class="post-card-image-link">
@@ -12,9 +12,9 @@
     </g-link>
     <div>
       <g-link :to="path">
-        <!-- <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2> -->
+        <h2 class="post-card-title mt-3">{{ record.title || record.name }}</h2>
         <p class="post-card-excerpt text-gray-700">{{ record.excerpt }}</p>
-        <section
+        <!-- <section
           class="flex flex-wrap post-tags container mx-auto relative py-1"
         >
           <g-link
@@ -24,7 +24,7 @@
             class="text-xs bg-transparent hover:text-blue-700 py-1 px-2 mr-1 border hover:border-blue-500 border-gray-600 text-gray-700 rounded-full mb-2"
             >{{ membership.title }}</g-link
           >
-        </section>
+        </section> -->
       </g-link>
 
       <div class="w-full post-card-meta pt-2">
@@ -109,7 +109,7 @@ export default {
         return [];
       }
       memberships.forEach(function (membership) {
-        if (["foundation", "tech", "cofounders"].includes(membership.title)) {
+        if(["foundation", "tech", "farmers"].includes(membership.title)){
           res.push(membership);
         }
       });
@@ -138,6 +138,6 @@ export default {
 
 .post-card-image {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 </style>
