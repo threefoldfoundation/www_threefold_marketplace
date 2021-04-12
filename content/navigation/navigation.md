@@ -88,19 +88,19 @@ navLinks:
     submenu:
       - title: Blog
         path: https://threefold.io/blog
-        external: false
+        external: true
       - title: NewsRoom
         path: https://threefold.io/news
-        external: false
+        external: true
       - title: Forum
         path: https://forum.threefold.io
         external: true
       - title: Team
         path: https://threefold.io/team
-        external: false
+        external: true
       - title: Partners
         path: https://threefold.io/partners
-        external: false
+        external: true
       - title: Contact Us
         path: 'mailto:mailto:info@threefold.io'
 
