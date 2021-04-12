@@ -20,7 +20,7 @@
           :record="post.node"
         />
       </div>
-      <div class="text-center" v-if="news.edges.length == 0">
+      <div class="text-center" v-if="blogs.edges.length == 0">
         <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">No results</h2>
       </div>
       <div class="pagination flex justify-center mb-8">

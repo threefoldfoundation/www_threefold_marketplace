@@ -9,16 +9,16 @@
     <div class="container sm:px-0 mx-auto overflow-x-hidden pt-12">
       <div class="mx-4 sm:mx-0">
         <h1 class="pb-0 mb-0 text-5xl font-medium capitalize">
-          {{ tags.title }}
+          {{ tags.title.replace("_", " ") }}
         </h1>
         <p class="text-gray-700 text-xl">
           <span class="self-center">{{ items.length }} {{ item }}</span>
         </p>
       </div>
 
-      <div class="pt-8 border-b"></div>
+      <!-- <div class="pt-8 border-b"></div> -->
 
-      <div class="flex flex-wrap pt-8 pb-8 mx-4 sm:-mx-4">
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-4 pt-8 pb-8 mx-2">
         <PostListItem
           :showtags="true"
           v-for="item in items"
@@ -143,6 +143,27 @@
     }
     }
 
+    appsTag(id: $id) {
+      title
+      path
+      belongsTo{
+        totalCount
+        pageInfo {
+          totalPages
+          currentPage
+        }
+        edges {
+          node {
+            ... on App {
+              title
+              image
+              path
+            }
+          }
+        }
+      }
+    }
+
     allNewsTag{
      edges{
       node{
@@ -161,9 +182,17 @@
         path
       }
     }
-} 
-
+  } 
+ allAppsTag{
+     edges{
+      node{
+        id
+        title
+        path
+      }
+    }
   }
+}
 </page-query>
 
 <script>
@@ -194,17 +223,27 @@ export default {
       } else if (this.$page.blogTag) {
         path = "/blog";
         tags = this.$page.allBlogTag;
+      } else if (this.$page.appsTag) {
+        path = "/apps";
+        tags = this.$page.allAppsTag;
       }
-
       var res = [{ title: "All Tags", path: path }];
       tags.edges.forEach((edge) =>
-        res.push({ title: edge.node.title, path: edge.node.path })
+        res.push({
+          title: edge.node.title,
+          path: edge.node.path,
+        })
       );
       return res;
     },
 
     tags() {
-      return this.$page.projectTag || this.$page.newsTag || this.$page.blogTag;
+      return (
+        this.$page.projectTag ||
+        this.$page.newsTag ||
+        this.$page.blogTag ||
+        this.$page.appsTag
+      );
     },
     item() {
       var plural = this.tags.belongsTo.totalCount > 0;

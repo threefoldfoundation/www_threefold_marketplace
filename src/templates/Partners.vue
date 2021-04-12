@@ -2,7 +2,7 @@
   <Layout>
     <TagFilterHeader
       :tags="tags"
-      selected="all"
+      selected="selected"
       v-if="$page.tags.edges.length > 1"
     />
     <div class="container mt-8 sm:pxi-0 mx-auto overflow-x-hidden">
@@ -15,19 +15,45 @@
           pathPrefix="/partners"
         />
       </div>
+
+      <div class="text-center" v-if="$page.entries.edges.length == 0">
+        <h2 class="inlibe-flex mx-auto text-gray-700 w-3/4">No results</h2>
+      </div>
+    </div>
+
+    <div class="pagination flex justify-center mb-8">
+      <Pagination
+        v-if="
+          $page.entries.pageInfo.totalPages > 1 &&
+          $page.entries.edges.length > 0
+        "
+        :baseUrl="baseurl"
+        :currentPage="$page.entries.pageInfo.currentPage"
+        :totalPages="$page.entries.pageInfo.totalPages"
+        :maxVisibleButtons="5"
+      />
     </div>
   </Layout>
 </template>
 
 <page-query>
-query ($private: Int){
-  entries: allProject (sortBy: "rank", order: ASC, filter: { private: { ne: $private }, category: { contains: ["marketplace"]}}){
+query($page: Int){
+  entries: allProject (perPage: 10, page: $page, sortBy: "rank", order: ASC, filter: { category: { contains: ["marketplace"]}})@paginate{
     totalCount
+    pageInfo {
+      totalPages
+      currentPage
+    }
     edges {
       node {
         id
         title
         path
+        tags{
+          id
+          title
+          path
+        }
         members {
           id
           name
@@ -49,7 +75,7 @@ query ($private: Int){
     }
   }
   
-  tags: allProjectTag (filter: { title: {in: ["blockchain", "experience", "technology", "farming", "community", "infrastructure", "impact"]}}) {
+  tags: allProjectTag {
      edges{
       node{
         id
@@ -65,16 +91,28 @@ query ($private: Int){
 <script>
 import PostListItem from "~/components/custom/Cards/PostListItem.vue";
 import TagFilterHeader from "~/components/custom/TagFilterHeader.vue";
+import Pagination from "~/components/custom/Pagination.vue";
 
 export default {
   components: {
     PostListItem,
     TagFilterHeader,
+    Pagination,
   },
   metaInfo() {
     return {
       title: this.pageName,
     };
+  },
+  data() {
+    return {
+      selected: "All",
+    };
+  },
+  methods: {
+    resetAll() {
+      this.selected = "All";
+    },
   },
   computed: {
     tags() {
@@ -84,10 +122,8 @@ export default {
       );
       return res;
     },
-    pageName() {
-      let path = this.$route.path.substring(1);
-      let name = path[0].toUpperCase() + path.slice(1);
-      return name;
+    baseurl() {
+      return "/partners/";
     },
   },
 };

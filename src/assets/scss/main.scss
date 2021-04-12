@@ -93,8 +93,8 @@ ul {
 }
 
 .flex-post {
-    @apply border-b;
-    @apply border-b-gray-300;
+    // @apply border-b;
+    // @apply border-b-gray-300;
     @apply flex-col;
     @apply w-full;
     .post-card-image {
@@ -137,7 +137,8 @@ button:focus {
 
 .h-64 {
     height: 25rem !important;
-  }
+}
+
 @media (min-width: 768px) {
     .with-large>.flex-post:nth-child(5n),
     .with-large>.flex-post:nth-child(5n-1) {
@@ -194,7 +195,6 @@ button:focus {
         .post-card-excerpt {
             @apply text-xl;
         }
-  
     }
     // .news>.flex-post:nth-child(9n+1),
     // .news>.flex-post:nth-child(9n+2) {
@@ -284,12 +284,13 @@ button:focus {
     //     }
     // }
 }
-@media (max-width: 768px) {
 
+@media (max-width: 768px) {
     .h-64 {
         height: 20rem !important;
-      }
+    }
 }
+
 // body[data-theme="dark"] {
 //   background-color: #191b1f;
 //   @apply text-gray-300;
