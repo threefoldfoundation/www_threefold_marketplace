@@ -7,7 +7,7 @@
 module.exports = {
     siteName: 'ThreeFold Marketplace',
     pathPrefix: "marketplace",
-    plugins: [
+	plugins: [
 
         // Local models
         {
@@ -414,6 +414,13 @@ module.exports = {
                 ]
             }
         },
+        {
+            use: 'gridsome-plugin-matomo',
+            options: {
+                host: 'https://analytics.threefold.io/',
+                siteId: 10
+            }
+        }
     ],
     chainWebpack: config => {
         config.resolve.alias.set('@images', '@/assets/images')
@@ -440,7 +447,7 @@ module.exports = {
         }],
 
         Membership: [{
-            path: '/people/memberships/:id',
+            path: '/team/memberships/:id',
             component: '~/templates/Membership.vue'
         }],
 
@@ -455,7 +462,7 @@ module.exports = {
         }],
 
         Person: [{
-            path: '/people/:id',
+            path: '/team/:id',
             component: '~/templates/Person.vue'
         }],
 
@@ -470,7 +477,7 @@ module.exports = {
         }],
 
         PersonTag: [{
-            path: '/people/tags/:id',
+            path: '/team/tags/:id',
             component: '~/templates/Tag.vue'
         }],
 
@@ -487,7 +494,7 @@ module.exports = {
             externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
             anchorClassName: 'icon icon-link',
             pathPrefix: "marketplace",
-            plugins: [
+	plugins: [
                 ['gridsome-plugin-remark-prismjs-all', {
                         highlightClassName: "gridsome-highlight",
                         codeTitleClassName: "gridsome-code-title",
