@@ -37,7 +37,7 @@ items:
   - title: Participate
     links: 
       - name: Deploy P2P Apps
-        link: /apps
+        link: /marketplace/apps
         external: false
       - name: Deploy Private Cloud
         link: https://threefold.io/info/cloud#/cloud__readme
