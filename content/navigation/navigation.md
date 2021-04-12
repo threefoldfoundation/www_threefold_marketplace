@@ -95,8 +95,8 @@ navLinks:
       - title: Forum
         path: https://forum.threefold.io
         external: true
-      - title: Team
-        path: https://threefold.io/team
+      - title: People
+        path: https://threefold.io/people
         external: true
       - title: Partners
         path: https://threefold.io/partners

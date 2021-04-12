@@ -87,8 +87,8 @@ items:
       - name: Forum
         link: https://forum.threefold.io
         external: true
-      - name: Team
-        link: https://threefold.io/team
+      - name: People
+        link: https://threefold.io/people
         external: false
       - name: Partners
         link: https://threefold.io/partners
