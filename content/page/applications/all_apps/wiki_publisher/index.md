@@ -11,21 +11,21 @@ image: ./img/wiki_publisher.png
 
 ## How does it work?
 
-For Wiki creation and management there are many options available in the market. ThreeFold has created a very simple tool that allows for deployment and Wiki management with version control, automatic update, and staging facilities.
+For Wiki creation and management there are many options available in the market. ThreeFold has created a very simple tool that allows for wiki (knowledge base) deployment and management with version control, automatic update, and staging facilities.
 
 ## What do you need to do?
 
 First, please note that in order to deploy a wiki using this tool, you'll need some technical knowledge of Git.
 <br/>
 <br/>
-The basic principle is that you create the content in the repository (markdown) and store it in a repository. Content creation can be done with any tools that you have experience with (or like). The only requirement is that you store the content in a public repository. This repository can be anything that stores code and provides version controlling. For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The actual deployment of the wiki infrastructure and all required domain name setup for the wiki to be publicly available is done in the one-click (and three question) deployment.
+The basic principle is that you create the content in a git repository (markdown). Content creation can be done with any tools that you have experience with (or like). For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The only requirement is that you store the content in a public or private repository. The actual deployment of the wiki infrastructure and all required domain setup for the wiki to be publicly available is done in a one-click (and three questions) deployment.
 <br/>
 <br/>
 See [ThreeFold Main Wiki](https://threefold.io/info/threefold) as an example.
 
 ## How to Deploy
 
-Please visit [the Marketplace Wiki](https://threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
+Please visit [the Marketplace Wiki](https://threefold.io/info/cloud#/cloud__evdc_marketplace) to find further instructions!
 <br/>
 <br/>
 If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!

@@ -18,14 +18,14 @@ For blog creation and management there are may options available in the market. 
 First, please note that in order to deploy a blog using this tool, you'll need some technical knowledge of Git.
 <br/>
 <br/>
-The basic principle is that you create the content in the repository (html, markdown and other) and store it in a repository. Content creation can be done with any tools that you have experience with (or like). The only requirement is that you store the content in a public repository. This repository can be anything that stores code and provides version controlling. For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The actual deployment of the webserver infrastructure and all required domain name setup for the blog to be publicly available is done in the one-click (and three question) deployment.
+The basic principle is that you create the content in the repository (html, markdown). Content creation can be done with any tools that you have experience with (or like). For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The only requirement is that you store the content in a public or private repository. The actual deployment of the webserver infrastructure and all required domain setup for the blog to be publicly available is done in a one-click (and three questions) deployment.
 <br/>
 <br/>
 See: [ThreeFold Farming Blog](https://farming.threefold.io/blog) as an example.
 
 ## How to Deploy
 
-Please visit [the Marketplace Wiki](https://threefold.io/info/cloud#/cloud__evdc_marketplace) to find instructions!
+Please visit [the Marketplace Wiki](https://threefold.io/info/cloud#/cloud__evdc_marketplace) to find further instructions!
 <br/>
 <br/>
 If you need any support, please join [our Testing Community](https://bit.ly/tftesting) or visit [our forum](https://forum.threefold.io)!

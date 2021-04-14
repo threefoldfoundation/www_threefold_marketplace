@@ -10,17 +10,17 @@ image: ./img/website_publisher.png
 ![](./img/webpublisherexample.png)
 <br/>
 
-For website creation and management, there are may options available in the market – from total end-to-end solutions like Squarespace to do-it-yourself. ThreeFold has created publishing tools that allow for deployment and management with version control, automatic update, and staging facilities.
+For website creation and management, there are many options available in the market – from total end-to-end solutions like Squarespace to do-it-yourself. ThreeFold has created publishing tool that allow for deployment and management with version control, automatic update, and staging facilities.
 
 ## What do you need to do?
 
 First, please note that in order to deploy a website using this tool, you'll need some technical knowledge of Git.
 <br/>
 <br/>
-The basic principle is that you create the content in the repository (html, markdown and other) and store it in a repository. Content creation can be done with any tools that you have experience with (or like). The only requirement is that you store the content in a public repository. This repository can be anything that stores code and provides version controlling. For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The actual deployment of the webserver infrastructure and all required domain name setup for the blog to be publicly available is done in the one-click (and three question) deployment.
+The basic principle is that you create the content within a git repository (html, markdown). Content creation can be done with any tools that you have experience with (or like). The only requirement is that you store the content in a public or private repository. For example, you can use Github, but also ThreeFold's decentralized Gitea solution. The actual deployment of the webserver infrastructure and all required domain setup for a website to be publicly available is done in the one-click (and three questions) deployment.
 <br/>
 <br/>
-This website you are currently on was developed using the website publisher tool!
+All ThreeFold websites has been developed using the website publisher tool!
 
 ## How to Deploy
 
