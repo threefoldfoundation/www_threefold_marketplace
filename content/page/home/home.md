@@ -1,5 +1,8 @@
 ---
 id: home
+metaTitle: ThreeFold Marketplace | The Power of P2P
+metaDesc: Today, online privacy and security are badly compromised. Peer-to-Peer models empower communities with equality, sovereignty and resiliency.
+metaImg: ./power.png
 header_title: THE POWER OF P2P
 header_image: ./power.png
 header_altImg: marketplace

@@ -1,15 +1,15 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
     <SignUp
-        v-if="$page.markdownPage.signup"
-        :signup="$page.markdownPage.signup"
+      v-if="$page.markdownPage.signup"
+      :signup="$page.markdownPage.signup"
     />
-    
+
     <SolutionsHeader
-        v-if="$page.markdownPage.header"
-        :header="$page.markdownPage.header"
+      v-if="$page.markdownPage.header"
+      :header="$page.markdownPage.header"
     />
-    
+
     <TagFilterHeader
       :tags="appsTag"
       selected="all"
@@ -22,10 +22,7 @@
       v-if="$page.markdownPage.apps && $page.markdownPage.apps.length > 0"
     />
 
-    <CallToAction 
-      v-if="$page.markdownPage.cta" 
-      :cta="$page.markdownPage.cta" 
-    />
+    <CallToAction v-if="$page.markdownPage.cta" :cta="$page.markdownPage.cta" />
   </Layout>
 </template>
 
@@ -34,6 +31,9 @@
     markdownPage(id: "applications") {
         id
         path
+        metaTitle
+        metaDesc
+        metaImg
         comparisonMain{
           id
           title
@@ -114,7 +114,45 @@ export default {
   },
   metaInfo() {
     return {
-      title: "Apps",
+      title: "",
+      titleTemplate: this.$page.markdownPage.metaTitle,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+      ],
     };
   },
   computed: {
@@ -124,6 +162,19 @@ export default {
         res.push({ title: edge.node.title, path: edge.node.path })
       );
       return res;
+    },
+    getImg() {
+      let image = "";
+      if (process.isClient) {
+        image = `${window.location.origin}${this.img}`;
+      }
+      return image;
+    },
+    img() {
+      if (!this.$page.markdownPage.metaImg) return "";
+      if (this.$page.markdownPage.metaImg.src)
+        return this.$page.markdownPage.metaImg.src;
+      return this.$page.markdownPage.metaImg;
     },
   },
 };

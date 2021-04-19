@@ -9,7 +9,7 @@
       :link="$page.markdownPage.link"
     />
 
-    <Comparison 
+    <Comparison
       v-if="
         $page.markdownPage.comparisonSecs &&
         $page.markdownPage.comparisonSecs.length > 0
@@ -73,7 +73,8 @@
       :signup="$page.markdownPage.signup"
     />
 
-    <CallToAction class="mt-10"
+    <CallToAction
+      class="mt-10"
       v-if="$page.markdownPage.cta2"
       :cta="$page.markdownPage.cta2"
     />
@@ -90,6 +91,9 @@
     markdownPage(id: "home") {
         id
         path
+        metaTitle
+        metaDesc
+        metaImg
         header_title
         header_image
         header_excerpt
@@ -229,9 +233,63 @@ export default {
     InTheNews,
     SignUp,
   },
-  metaInfo: {
-    title: "",
-    titleTemplate: "ThreeFold Marketplace | P2P Community Apps",
+  computed: {
+    getImg() {
+      let image = "";
+      if (process.isClient) {
+        image = `${window.location.origin}${this.img}`;
+      }
+      return image;
+    },
+    img() {
+      if (!this.$page.markdownPage.metaImg) return "";
+      if (this.$page.markdownPage.metaImg.src)
+        return this.$page.markdownPage.metaImg.src;
+      return this.$page.markdownPage.metaImg;
+    },
+  },
+  metaInfo() {
+    return {
+      title: "",
+      titleTemplate: this.$page.markdownPage.metaTitle,
+      meta: [
+        {
+          key: "description",
+          name: "description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:title",
+          property: "og:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+        {
+          key: "og:description",
+          property: "og:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "og:image",
+          property: "og:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: this.$page.markdownPage.metaDesc,
+        },
+        {
+          key: "twitter:image",
+          property: "twitter:image",
+          content: this.getImg,
+        },
+        {
+          key: "twitter:title",
+          property: "twitter:title",
+          content: this.$page.markdownPage.metaTitle,
+        },
+      ],
+    };
   },
 };
 </script>

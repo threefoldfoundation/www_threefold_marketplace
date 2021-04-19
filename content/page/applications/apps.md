@@ -1,9 +1,13 @@
 ---
 id: applications
+metaTitle: ThreeFold Marketplace | P2P Apps
+metaDesc: Fast, private, and allows you to break free. An evolving marketplace of peer-to-peer applications.
+metaImg: ./power.png
 signup: testing_signup
 header: apps_header
 appsMain: ''
 apps: [
+
     blog_publisher,
     casperlabs,
     commento,
@@ -35,5 +39,6 @@ apps: [
     wiki_publisher,
     zeroci,
     ]
+
 cta: contact_us
 ---
