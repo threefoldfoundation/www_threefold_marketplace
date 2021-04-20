@@ -33,25 +33,30 @@ navLinks:
     external: true
     expandable: false
 
+  - name: Apps
+    link: /apps
+    external: false
+    expandable: false
+
   - name: Participate
     link: ''
     external: false
     expandable: true
     submenu:
-      - title: Deploy P2P Applications
+      - title: Deploy P2P Apps
         path: /apps
         external: false
-      - title: Deploy Private Cloud
+      - title: Deploy P2P Cloud
         path: https://threefold.io/info/cloud#/cloud__readme
         external: true
-      - title: SDK
-        path: https://sdk.threefold.io/
-        external: true
-      - title: Get TFT
+      - title: Buy TFT
         path: https://threefold.io/token
         external: true
       - title: Be The Internet
         path: https://threefold.io/farming
+        external: true
+      - title: SDK
+        path: https://sdk.threefold.io/
         external: true
       - title: Join Testing Community
         path: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
@@ -71,14 +76,11 @@ navLinks:
       - title: Cloud P2P Benefits
         path: https://threefold.io/info/cloud#/cloud__usp
         external: true
-      - title: ThreeFold Grid
-        path: https://threefold.io/farming/tech
-        external: true
       - title: What is TFT?
         path: https://threefold.io/token
         external: true
-      - title: Buy TFT
-        path: https://www.threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+      - title: ThreeFold Grid
+        path: https://threefold.io/farming/tech
         external: true
 
   - name: About Us
