@@ -67,13 +67,13 @@ navLinks:
     external: false
     expandable: true
     submenu:
-      - title: How to deploy P2P Apps
+      - title: How to deploy Apps
         path: https://threefold.io/info/cloud#/cloud__evdc_marketplace
         external: true
       - title: Live Capacity
         path: https://explorer.threefold.io/
         external: true
-      - title: Cloud P2P Benefits
+      - title: P2P Cloud Benefits
         path: https://threefold.io/info/cloud#/cloud__usp
         external: true
       - title: What is TFT?

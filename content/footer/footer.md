@@ -39,17 +39,17 @@ items:
       - name: Deploy P2P Apps
         link: /marketplace/apps
         external: false
-      - name: Deploy Private Cloud
+      - name: Deploy P2P Cloud
         link: https://threefold.io/info/cloud#/cloud__readme
         external: true
-      - name: SDK
-        link: https://sdk.threefold.io/
-        external: true
-      - name: Get TFT
+      - name: Buy TFT
         link: https://threefold.io/token
         external: true
       - name: Be The Internet
         link: https://threefold.io/farming
+        external: true
+      - name: SDK
+        link: https://sdk.threefold.io/
         external: true
       - name: Join Test Community
         link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
@@ -63,17 +63,14 @@ items:
       - name: Live Capacity
         link: https://explorer.threefold.io/
         external: true
-      - name: Cloud P2P Benefits
+      - name: P2P Cloud Benefits
         link: https://threefold.io/info/cloud#/cloud__usp
-        external: true
-      - name: ThreeFold Grid
-        link: https://threefold.io/farming/tech
         external: true
       - name: What is TFT?
         link: https://threefold.io/token
         external: true
-      - name: Buy TFT
-        link: https://www.threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+      - name: ThreeFold Grid
+        link: https://threefold.io/farming/tech
         external: true
 
   - title: About Us
