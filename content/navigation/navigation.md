@@ -17,6 +17,24 @@ navLinks:
     external: false
     expandable: false
 
+  - name: Community
+    link: "" # /dropdown
+    external: false
+    expandable: true
+    submenu:
+      - title: Partners
+        path: https://threefold.io/partners
+        external: true
+      - title: People
+        path: https://threefold.io/people
+        external: true      
+      - title: Alliance
+        path: https://threefold.io/aci
+        external: true
+      - title: Telegram
+        path: https://t.me/threefoldnews
+        external: true   
+ 
   - name: ThreeFold
     link: ''
     external: false
@@ -43,25 +61,6 @@ navLinks:
       - title: Explorer
         path: https://explorer.threefold.io/
         external: true          
-
-  - name: Community
-    link: "" # /dropdown
-    external: false
-    expandable: true
-    submenu:
-      - title: Partners
-        path: https://threefold.io/partners
-        external: true
-      - title: People
-        path: https://threefold.io/people
-        external: true      
-      - title: Alliance
-        path: https://threefold.io/aci
-        external: true
-      - title: Telegram
-        path: https://t.me/threefoldnews
-        external: true   
-                
         
 social:
   - icon: telegram-plane
