@@ -1,6 +1,6 @@
 ---
 id: footer
-description: P2P MARKETPLACE
+description: THREEFOLD
 linkedin: 'https://www.linkedin.com/company/threefold-foundation/'
 facebook: 'https://www.facebook.com/threefold.io'
 twitter: 'https://twitter.com/threefold_io'
@@ -10,92 +10,75 @@ youtube: 'https://www.youtube.com/threefoldfoundation'
 github: 'https://github.com/threefoldfoundation'
 telegram: 'https://t.me/threefoldnews'
 items:
-  - title: TF Universe
-    links: 
-      - name: ThreeFold
-        link: https://threefold.io
-        external: true
-      - name: ThreeFold Token
-        link: https://threefold.io/token
-        external: true
-      - name: ThreeFold Grid
-        link: https://threefold.io/farming
-        external: true
-      - name: P2P Cloud
-        link: https://threefold.io/cloud
-        external: true
-      - name: Digital Twin
-        link: https://mydigitaltwin.io/
-        external: true
-      - name: Conscious Internet
-        link: https://threefold.io/aci
-        external: true
-      - name: ThreeFold Tech
-        link: https://threefold.tech/
-        external: true
+ - title: Threefold Universe
+   links:
+    - name: ThreeFold Token
+      link: /token
+    - name: ThreeFold Farming
+      link: https://threefold.io/farming
+    - name: ThreeFold Cloud
+      link: https://threefold.io/cloud
+    - name: Grid Explorer
+      link: https://explorer.threefold.io/      
+    - name: ThreeFold Marketplace
+      link: https://threefold.io/marketplace
+    - name: Digital Twin
+      link: https://mydigitaltwin.io
+    - name: Alliance
+      link: https://threefold.io/aci
+
         
-  - title: Participate
-    links: 
-      - name: Deploy P2P Apps
-        link: /marketplace/apps
-        external: false
-      - name: Deploy P2P Cloud
-        link: https://threefold.io/info/cloud#/cloud__readme
-        external: true
-      - name: Buy TFT
-        link: https://threefold.io/token
-        external: true
-      - name: Be The Internet
-        link: https://threefold.io/farming
-        external: true
-      - name: SDK
-        link: https://sdk.threefold.io/
-        external: true
-      - name: Join Test Community
-        link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
-        external: true
+ - title: Participate
+   links:
+    - name: Start Farming
+      link: https://threefold.io/farming/get_3node
+    - name: Buy the Token
+      link: https://threefold.io/info/threefold#/threefold__how_to_buy_and_sell
+    - name: Test the Cloud
+      link: https://threefold.io/cloud
+    - name: Develop with the SDK (advanced)
+      link: https://threefold.io/info/sdk
+    - name: Testing Community
+      link: https://t.me/joinchat/BwOvOxxgK59GmRoZ2_sM0w
+ 
+ - title: Knowledgebase
+   links:
+    - name: ThreeFold Grid
+      link: https://threefold.io/info/threefold#/threefold__grid_home
+    - name: ThreeFold Technology
+      link: https://threefold.io/info/threefold#/internet4__technology
+    - name: ThreeFold Farming
+      link: https://threefold.io/info/threefold#/threefold__farming_intro
+    - name: ThreeFold Token
+      link: https://threefold.io/info/threefold#/threefold__token_home
+    - name: Carbon Double Win
+      link: https://threefold.io/info/threefold#/threefold__energy_savings
+    - name: Manuals
+      link: https://threefold.io/info/threefold#/threefold__wiki_overview
+    - name: Releases
+      link: https://threefold.io/info/threefold#/threefold__release_mgmt
+    - name: ThreeFold Glossary
+      link: https://threefold.io/info/threefold#/threefold__defs
 
-  - title: Learn
-    links: 
-      - name: How to deploy Apps
-        link: https://threefold.io/info/cloud#/cloud__evdc_marketplace
-        external: true
-      - name: Live Capacity
-        link: https://explorer.threefold.io/
-        external: true
-      - name: P2P Cloud Benefits
-        link: https://threefold.io/info/cloud#/cloud__usp
-        external: true
-      - name: What is TFT?
-        link: https://threefold.io/token
-        external: true
-      - name: ThreeFold Grid
-        link: https://threefold.io/farming/tech
-        external: true
-
-  - title: About Us
-    links: 
-      - name: Blog
-        link: https://threefold.io/blog
-        external: false
-      - name: NewsRoom
-        link: https://threefold.io/news
-        external: false
-      - name: Forum
-        link: https://forum.threefold.io
-        external: true
-      - name: People
-        link: https://threefold.io/people
-        external: false
-      - name: Partners
-        link: https://threefold.io/partners
-        external: false
-      - name: Contact Us
-        link: 'mailto:mailto:info@threefold.io'
+ - title: About Us
+   links:
+    - name: ThreeFold
+      link: https://threefold.io/info/threefold
+    - name: Partners
+      link: /partners
+    - name: People
+      link: /people
+    - name: Blog
+      link: /blog
+    - name: NewsRoom
+      link: /news
+    - name: Forum
+      link: https://forum.threefold.io/
+    - name: Contact Us
+      link: 'mailto:info@threefold.io'
 ---
 
 [Terms & Conditions](https://threefold.io/info/legal#/legal__terms_conditions_websites) | [Privacy Policy](https://threefold.io/info/legal#/legal__privacypolicy) | [Impressum]()
 
 <br/>
-&#xA9; 2021 Marketplace by ThreeFold, All rights reserved.
-
+&#xA9; 2021 ThreeFold, All rights reserved.
