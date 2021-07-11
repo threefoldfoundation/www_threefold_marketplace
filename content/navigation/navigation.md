@@ -2,11 +2,6 @@
 id: navigation
 navLinks:
 
-  - name: Home
-    link: https://threefold.io
-    external: true
-    expandable: false
-        
   - name: Why
     link: https://threefold.io/why
     external: true
@@ -40,6 +35,9 @@ navLinks:
     external: false
     expandable: true
     submenu:     
+      - title: Home
+        path: https://threefold.io
+        external: true    
       - title: Tokens
         path: https://threefold.io/token
         external: true
