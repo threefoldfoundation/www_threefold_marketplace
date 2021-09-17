@@ -54,7 +54,7 @@ navLinks:
         path: https://threefold.io/aci
         external: true        
       - title: Developers (SDK)
-        path: https://sdk.threefold.io/
+        path: https://library.threefold.me/info/sdk/
         external: true
       - title: Explorer
         path: https://explorer.threefold.io/

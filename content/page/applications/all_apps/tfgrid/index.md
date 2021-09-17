@@ -37,7 +37,7 @@ The ThreeFold Grid is the largest active decentralized cloud in the world.
 
 ![](./img/cloud_comparison.png)
 
-*If you'd like to read more about the ThreeFold Grid, please visit the [website](https://threefold.io) or [wikis](https://info.threefold.io).*
+*If you'd like to read more about the ThreeFold Grid, please visit the [website](https://threefold.io) or [wikis](https://library.threefold.me/info/threefold).*
 
 <!--
 
