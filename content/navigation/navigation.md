@@ -24,7 +24,7 @@ navLinks:
         path: https://threefold.io/people
         external: true      
       - title: Alliance
-        path: https://threefold.io/aci
+        path: https://www.consciousinternet.org/
         external: true
       - title: Telegram
         path: https://t.me/threefoldnews
@@ -39,10 +39,10 @@ navLinks:
         path: https://threefold.io
         external: true    
       - title: Tokens
-        path: https://threefold.io/token
+        path: https://library.threefold.me/info/threefold#/tokens/threefold__how_to_buy
         external: true
       - title: Farming
-        path: https://threefold.io/farming
+        path: https://library.threefold.me/info/threefold#/tfgrid/farming/threefold__start_farming
         external: true
       - title: Cloud
         path: https://cloud.threefold.io
@@ -51,10 +51,10 @@ navLinks:
         path: https://mydigitaltwin.io/
         external: true
       - title: Conscious Internet
-        path: https://threefold.io/aci
+        path: https://www.consciousinternet.org/
         external: true        
-      - title: Developers (SDK)
-        path: https://library.threefold.me/info/sdk/
+      - title: Developers
+        path: https://library.threefold.me/info/threefold#/manual_tfgrid3/threefold__manual3_home/
         external: true
       - title: Explorer
         path: https://explorer.threefold.io/
