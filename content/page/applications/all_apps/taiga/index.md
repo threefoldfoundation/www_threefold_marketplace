@@ -23,7 +23,7 @@ Our world is moving towards remote working, and with that comes many challenges 
 - At ThreeFold we love the agility and functionality the Taiga project management software provides us with and are using it for a number of different projects we run internally.
 - These projects range from customer-facing and partnership acquisition to ThreeFold Tech product and software development.
 - See the Taiga system working [here](https://circles.threefold.me/discover).
-- We love the Taiga project and encourage you to help Taiga by paying for a commercial license (https://taiga.io/pricing).
+- We love the Taiga project and encourage you to help Taiga by paying for a commercial license (https://taiga.io/).
 - We at ThreeFold are planning to ask Taiga to be able to pay for license fees using TFT as part of the deployment wizard.
 
 ## Want to learn more about Agile? 
