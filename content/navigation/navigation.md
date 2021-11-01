@@ -2,10 +2,6 @@
 id: navigation
 navLinks:
 
-  - name: Why
-    link: https://threefold.io/why
-    external: true
-    expandable: false
 
   - name: Apps
     link: /apps

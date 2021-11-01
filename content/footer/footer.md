@@ -6,8 +6,11 @@ linkedin: 'https://www.linkedin.com/company/threefold-foundation/'
 facebook: 'https://www.facebook.com/threefold.io'
 twitter: 'https://twitter.com/threefold_io'
 youtube: 'https://www.youtube.com/threefoldfoundation'
-github foundation: 'https://github.com/threefoldfoundation'
-github tech: 'https://github.com/threefoldtech'
+github: 'https://github.com/threefoldfoundation'
+github_tech: 'https://github.com/threefoldtech'
+dribbble: ''
+instagram: ''
+
 items:
  - title: Threefold Universe
    links:
